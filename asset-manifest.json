@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/BARC-New-Website/static/css/main.9d63c2ce.css",
-    "main.js": "/BARC-New-Website/static/js/main.0be17e03.js",
+    "main.css": "/BARC-New-Website/static/css/main.b75482aa.css",
+    "main.js": "/BARC-New-Website/static/js/main.f5775c10.js",
     "static/js/787.e22df4cb.chunk.js": "/BARC-New-Website/static/js/787.e22df4cb.chunk.js",
     "static/media/BGV.mp4": "/BARC-New-Website/static/media/BGV.f793ec628071615900ec.mp4",
     "static/media/img2.jpg": "/BARC-New-Website/static/media/img2.572e8198a6513506b0e0.jpg",
@@ -12,12 +12,12 @@
     "static/media/vk tiwari sir.jpg": "/BARC-New-Website/static/media/vk tiwari sir.c052f4fecb138cbd3c06.jpg",
     "static/media/Signature.jpg": "/BARC-New-Website/static/media/Signature.2873cf5916ab41faf98a.jpg",
     "index.html": "/BARC-New-Website/index.html",
-    "main.9d63c2ce.css.map": "/BARC-New-Website/static/css/main.9d63c2ce.css.map",
-    "main.0be17e03.js.map": "/BARC-New-Website/static/js/main.0be17e03.js.map",
+    "main.b75482aa.css.map": "/BARC-New-Website/static/css/main.b75482aa.css.map",
+    "main.f5775c10.js.map": "/BARC-New-Website/static/js/main.f5775c10.js.map",
     "787.e22df4cb.chunk.js.map": "/BARC-New-Website/static/js/787.e22df4cb.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.9d63c2ce.css",
-    "static/js/main.0be17e03.js"
+    "static/css/main.b75482aa.css",
+    "static/js/main.f5775c10.js"
   ]
 }
