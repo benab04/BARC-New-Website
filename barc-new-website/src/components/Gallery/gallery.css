@@ -1,0 +1,21 @@
+.gallery-page{
+    /* display: flex;
+    flex-direction: column; */
+    align-content: center;
+    justify-content: center;
+    padding:40px 0 0 0;
+    scale:0.7;
+    width:100vw;
+    /* height:100vh; */
+   padding-bottom: 0;
+}
+#gallery{
+    background-color: #08707f;
+}
+.gallery-title{
+    text-align: center;
+    font-size: 3.6rem;
+    color:lavender;
+    font-weight: 600;
+    padding: 1rem 0 2rem 0;
+}
