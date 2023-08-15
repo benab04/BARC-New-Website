@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/BARC-New-Website/static/css/main.a75d1dc7.css",
-    "main.js": "/BARC-New-Website/static/js/main.cce7a692.js",
+    "main.js": "/BARC-New-Website/static/js/main.d79a03a6.js",
     "static/js/787.e22df4cb.chunk.js": "/BARC-New-Website/static/js/787.e22df4cb.chunk.js",
     "static/media/BGV.mp4": "/BARC-New-Website/static/media/BGV.f793ec628071615900ec.mp4",
     "static/media/tranding-food-1.png": "/BARC-New-Website/static/media/tranding-food-1.6f2e516a072e95f15aa7.png",
@@ -20,11 +20,11 @@
     "static/media/Signature.jpg": "/BARC-New-Website/static/media/Signature.2873cf5916ab41faf98a.jpg",
     "index.html": "/BARC-New-Website/index.html",
     "main.a75d1dc7.css.map": "/BARC-New-Website/static/css/main.a75d1dc7.css.map",
-    "main.cce7a692.js.map": "/BARC-New-Website/static/js/main.cce7a692.js.map",
+    "main.d79a03a6.js.map": "/BARC-New-Website/static/js/main.d79a03a6.js.map",
     "787.e22df4cb.chunk.js.map": "/BARC-New-Website/static/js/787.e22df4cb.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.a75d1dc7.css",
-    "static/js/main.cce7a692.js"
+    "static/js/main.d79a03a6.js"
   ]
 }
