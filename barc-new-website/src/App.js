@@ -12,6 +12,7 @@ import Gallery from "./components/Gallery/gallery";
 // import Team from "./components/Team/Teams";
 import ReactDOM from "react-dom/client";
 import {BrowserRouter, Route, Routes} from "react-router-dom";
+import TeamsApp from "./components/Team/TeamsApp";
 function App(){
   return (
   <div>  
@@ -22,7 +23,7 @@ function App(){
   <WhatWeDo />
   <Testimonials />
   <Gallery /> 
-   {/* <Team />  */}
+   <TeamsApp/> 
    <Contact /> 
   </div>
   );
