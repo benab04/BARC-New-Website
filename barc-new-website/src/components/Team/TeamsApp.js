@@ -2,10 +2,10 @@
 import './App.css';
 import Teams from './Teams'
 
-function Teams_App() {
+function TeamsApp() {
   return (
     <Teams/>
   );
 }
 
-export default Teams_App;
+export default TeamsApp;
