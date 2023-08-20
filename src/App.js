@@ -1,24 +1,33 @@
-import logo from './logo.svg';
-import './App.css';
+// import logo from './logo.svg';
+import React from "react";
 
-function App() {
+import Hero from "./components/Hero/hero";
+import Navbar from "./components/Navbar/Navbar";
+import AboutUs from "./components/About/AboutUs";
+import WhatWeDo from "./components/WhatWeDo/Wwd";
+import Contact from "./components/Contact/ContactUs";
+import Testimonials from "./components/Testimonials/testimonials";
+import Preloader from "./components/Preloader/Preloader";
+import Gallery from "./components/Gallery/gallery";
+import Footer from "./components/Footer/Footer";
+import Team from "./components/Team/Teams";
+import View from "./components/View/View";
+import { HashRouter } from 'react-router-dom';
+// import ReactDOM from "react-dom/client";
+import {BrowserRouter, Route, Routes} from "react-router-dom";
+
+function App(){
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+    <HashRouter>
+      <Routes>
+        <Route path='/' element={<View/>} />
+        <Route path="/team" element={<Team/>}/>
+      </Routes>
+    </HashRouter>
+
+    </>
+
   );
 }
 
