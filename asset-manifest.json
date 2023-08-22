@@ -1,12 +1,12 @@
 {
   "files": {
-    "main.css": "/BARC-New-Website/static/css/main.ff6cf879.css",
-    "main.js": "/BARC-New-Website/static/js/main.3418267f.js",
+    "main.css": "/BARC-New-Website/static/css/main.efeb86e4.css",
+    "main.js": "/BARC-New-Website/static/js/main.fe7448ea.js",
     "static/media/BGV3.mp4": "/BARC-New-Website/static/media/BGV3.859acd2c847240ffdd78.mp4",
     "static/media/aadit.png": "/BARC-New-Website/static/media/aadit.391e85748bf6213b4e9a.png",
-    "static/media/sharansh.jpg": "/BARC-New-Website/static/media/sharansh.7114337436cd3f71b1fd.jpg",
     "static/media/bhoumik.jpg": "/BARC-New-Website/static/media/bhoumik.09b2d3a0c67dbd61f641.jpg",
     "static/media/aish.jpg": "/BARC-New-Website/static/media/aish.1f0ac7ea9c873398c2c7.jpg",
+    "static/media/sharansh.jpg": "/BARC-New-Website/static/media/sharansh.be2d7de43cd2d9809aa5.jpg",
     "static/media/UGAD.png": "/BARC-New-Website/static/media/UGAD.b6dd81bfb846d271bfd3.png",
     "static/media/bhumi.jpg": "/BARC-New-Website/static/media/bhumi.17d7e7d6b28b44691e41.jpg",
     "static/media/komal.jpg": "/BARC-New-Website/static/media/komal.4f7c98f04289cb99a7d4.jpg",
@@ -14,8 +14,8 @@
     "static/media/2018_A.jpg": "/BARC-New-Website/static/media/2018_A.901232e81e325126def7.jpg",
     "static/media/SPOT.png": "/BARC-New-Website/static/media/SPOT.560c6cf01cfc0c28a86c.png",
     "static/media/2018_B.jpg": "/BARC-New-Website/static/media/2018_B.38e04fde68d65c64d39e.jpg",
-    "static/media/ajay.png": "/BARC-New-Website/static/media/ajay.52fb50fef929ea8e6180.png",
     "static/media/4_july2021.jpeg": "/BARC-New-Website/static/media/4_july2021.45fb28154431a0e2c1a7.jpeg",
+    "static/media/ajay.png": "/BARC-New-Website/static/media/ajay.32442c282f15b1f448c8.png",
     "static/media/2018_D.jpg": "/BARC-New-Website/static/media/2018_D.ed6f4da1551213dd09b9.jpg",
     "static/media/bg5.png": "/BARC-New-Website/static/media/bg5.3cdff4901207fbee8411.png",
     "static/media/2018_C.jpg": "/BARC-New-Website/static/media/2018_C.bc8dbd7ef0de7ee6d12e.jpg",
@@ -32,11 +32,11 @@
     "static/media/wave2.svg": "/BARC-New-Website/static/media/wave2.36806dc239ca2accfe96.svg",
     "static/media/wave6.svg": "/BARC-New-Website/static/media/wave6.2344b583ddf3aeedec09.svg",
     "static/media/waves4.svg": "/BARC-New-Website/static/media/waves4.2b688996f72899a7b838.svg",
-    "main.ff6cf879.css.map": "/BARC-New-Website/static/css/main.ff6cf879.css.map",
-    "main.3418267f.js.map": "/BARC-New-Website/static/js/main.3418267f.js.map"
+    "main.efeb86e4.css.map": "/BARC-New-Website/static/css/main.efeb86e4.css.map",
+    "main.fe7448ea.js.map": "/BARC-New-Website/static/js/main.fe7448ea.js.map"
   },
   "entrypoints": [
-    "static/css/main.ff6cf879.css",
-    "static/js/main.3418267f.js"
+    "static/css/main.efeb86e4.css",
+    "static/js/main.fe7448ea.js"
   ]
 }
