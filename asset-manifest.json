@@ -1,12 +1,18 @@
 {
   "files": {
     "main.css": "/BARC-New-Website/static/css/main.5e6dc9b9.css",
-    "main.js": "/BARC-New-Website/static/js/main.cb1ba6d6.js",
+    "main.js": "/BARC-New-Website/static/js/main.4a507c2c.js",
     "static/media/BGV3.mp4": "/BARC-New-Website/static/media/BGV3.859acd2c847240ffdd78.mp4",
     "static/media/aadit.png": "/BARC-New-Website/static/media/aadit.391e85748bf6213b4e9a.png",
     "static/media/bhoumik.jpg": "/BARC-New-Website/static/media/bhoumik.09b2d3a0c67dbd61f641.jpg",
     "static/media/aish.jpg": "/BARC-New-Website/static/media/aish.1f0ac7ea9c873398c2c7.jpg",
+    "static/media/2022_D.jpg": "/BARC-New-Website/static/media/2022_D.16bacb97c633b1d4a049.jpg",
+    "static/media/2022_C.jpg": "/BARC-New-Website/static/media/2022_C.73ef57dc42d608720d21.jpg",
+    "static/media/2022_B.jpg": "/BARC-New-Website/static/media/2022_B.836af04a12de0524554e.jpg",
+    "static/media/2022_A.jpg": "/BARC-New-Website/static/media/2022_A.30f498742c2d142c877b.jpg",
     "static/media/sharansh.jpg": "/BARC-New-Website/static/media/sharansh.be2d7de43cd2d9809aa5.jpg",
+    "static/media/2022_F.jpg": "/BARC-New-Website/static/media/2022_F.9769b8c40eecc1fbcb66.jpg",
+    "static/media/2022_E.jpg": "/BARC-New-Website/static/media/2022_E.b211a651aa0d1930ca13.jpg",
     "static/media/UGAD.png": "/BARC-New-Website/static/media/UGAD.b6dd81bfb846d271bfd3.png",
     "static/media/bhumi.jpg": "/BARC-New-Website/static/media/bhumi.17d7e7d6b28b44691e41.jpg",
     "static/media/komal.jpg": "/BARC-New-Website/static/media/komal.4f7c98f04289cb99a7d4.jpg",
@@ -33,10 +39,10 @@
     "static/media/wave6.svg": "/BARC-New-Website/static/media/wave6.2344b583ddf3aeedec09.svg",
     "static/media/waves4.svg": "/BARC-New-Website/static/media/waves4.2b688996f72899a7b838.svg",
     "main.5e6dc9b9.css.map": "/BARC-New-Website/static/css/main.5e6dc9b9.css.map",
-    "main.cb1ba6d6.js.map": "/BARC-New-Website/static/js/main.cb1ba6d6.js.map"
+    "main.4a507c2c.js.map": "/BARC-New-Website/static/js/main.4a507c2c.js.map"
   },
   "entrypoints": [
     "static/css/main.5e6dc9b9.css",
-    "static/js/main.cb1ba6d6.js"
+    "static/js/main.4a507c2c.js"
   ]
 }
