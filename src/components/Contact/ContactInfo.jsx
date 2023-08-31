@@ -11,7 +11,10 @@ function ContactInfo() {
           target="_blank"
           rel="noreferrer"
         >
-          <BiMap className="map" />
+          <motion.i  className="fa-solid fa-location-dot" 
+          whileHover={{ scale: 1.3 }}
+          
+          ></motion.i>
         </a>
       </p>
 
@@ -34,7 +37,8 @@ function ContactInfo() {
         <p className="text">Aishwary Patel</p>
         <div className="information">
           <p>
-            +91-9630271203
+          <a style={{color:"inherit"}} href="tel:+91-9630271203">
+            +91-9630271203</a>
             <br />
             aishwarypatel2004@gmail.com
           </p>
@@ -42,7 +46,8 @@ function ContactInfo() {
         <p className="text">Bhumi Tayal</p>
         <div className="information">
           <p>
-            +91-7684067297
+          <a style={{color:"inherit"}} href="tel:+91-7684067297">
+            +91-7684067297</a>
             <br />
             tayalbhumi8@gmail.com
           </p>

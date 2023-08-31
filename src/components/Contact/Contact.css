@@ -198,9 +198,16 @@ border: 0px solid rgba(173, 216, 230, 0.3);
   font-size: 23px;
   transition: 0.4s;
 }
+
 .email-clamp>a>i:hover{
   scale:1.3;
   transition: 0.4s;
+}
+.fa-location-dot{
+  color:#08707f;
+  padding:0 10px 0 10px;
+  font-size: 25px;
+  /* transition: 0.4s; */
 }
 .text {
   color: #08707f;

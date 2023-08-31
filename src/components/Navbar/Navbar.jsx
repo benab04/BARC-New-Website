@@ -29,7 +29,7 @@ function Navbar(){
     const [header,changeHeader]=useState("header fixed-top ")
     let nav = document.getElementById("navbar");
     window.onscroll = function () {
-      console.log(document.documentElement.scrollTop)
+      // console.log(document.documentElement.scrollTop)
       if (document.documentElement.scrollTop > 20) {
         
         changeHeader("header fixed-top sticky header-scrolled")
@@ -44,6 +44,7 @@ function Navbar(){
     const navLi=document.querySelectorAll(".nav-link")
     
     window.addEventListener("scroll", () => {
+    
       let current="";
       sections.forEach( section => {
         const sectionTop=section.offsetTop;
