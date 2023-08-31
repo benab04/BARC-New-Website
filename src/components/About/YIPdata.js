@@ -1,4 +1,15 @@
 const YIP = [
+  // {
+  //   id: "4",
+  //   year: "2022",
+  //   icon: "tim-icons icon-bulb-63 text-success pr-1",
+  //   school: "1300",
+  //   student: "3000",
+  //   teams: "38",
+  //   idFirst: "2022-first",
+  //   idSecond: "2022-second",
+  //   idThird: "2022-third"
+  // },
     {
       id: "1",
       year: "2019",
@@ -32,6 +43,7 @@ const YIP = [
       idSecond: "2017-second",
       idThird: "2017-third"
     }
+    
   ];
   //YIP.map((item) => console.log(item.year));
   

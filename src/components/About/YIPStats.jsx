@@ -121,7 +121,7 @@ function YIPstats() {
                     <NavItem>
                       <NavLink
                         id={"yip-button" + navitem.id}
-                        className={classnames({
+                        className={"yip-button "+classnames({
                           active: iconTabs === navitem.id
                         })}
                         onClick={(e) => setIconsTabs(navitem.id)}

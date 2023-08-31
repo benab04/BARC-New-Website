@@ -28,7 +28,7 @@ function ContactInfo() {
         </div>
         <p className="title-info">Email Us</p>
         <div className="information">
-          <p>Email : barc@iitkgp.ac.in</p>
+          <p>Email : barc@iitkgp.ac.in</p><button className="email-clamp"><a href="https://mail.google.com/mail/?view=cm&fs=1&to=barc@iitkgp.ac.in" target="_blank" rel="nonreferrer"><i className="fa fa-envelope"></i></a></button>
         </div>
         <p className="title-info">Call Us</p>
         <p className="text">Aishwary Patel</p>

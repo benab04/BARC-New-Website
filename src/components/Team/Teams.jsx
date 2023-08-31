@@ -23,66 +23,61 @@ function contactus() {
       img: aish,
       name: "Aishwary Patel",
       pos: "General Secretary",
-      // fb: "https://www.facebook.com/abhinil07",
-      insta: '',
-      // linkedin: "https://www.linkedin.com/in/abhinilkumar07/",
-      // mail: "abhinilkumar@gmail.com",
-      // contact: "8210169485"
+      fb: "https://www.facebook.com/profile.php?id=100074647653881",
+      insta: 'https://www.instagram.com/w3.aish.in/',
+       linkedin: "https://www.linkedin.com/in/aishwary-patel-976298226",
+      contact: "9630271203",
+      mail:"aishwarypatel2004@gmail.com"
     },
     {
       // src: require("assets/img/denys.jpg"),
       img: bhumi,
       name: "Bhumi Tayal",
       pos: "General Secretary",
-      // fb: "https://www.facebook.com/devansh.srivastava.1671",
-      insta: '',
-      // linkedin: "https://www.linkedin.com/in/devansh-srivastava-97004620b/",
-      // mail: "devanshrishi26@gmail.com",
-      // contact: "9450124028"
+      fb: "https://www.facebook.com/people/Bhumi-Tayal/100074774606356/",
+      linkedin: "https://www.linkedin.com/in/bhumi-tayal-725913226/",
+      contact: "7684067297",
+      mail:"tayalbhumi8@gmail.com"
     },
     {
       // src: require("assets/img/denys.jpg"),
       img: bhoumik,
       name: "Bhoumik Mhatre",
       pos: "Senior Coordinator",
-      // fb: "https://www.facebook.com/profile.php?id=100056269372029",
-      insta: '',
-      // linkedin: "https://www.linkedin.com/in/shashi-ranjan-861612210/",
-      // mail: "iit2020sr@gmail.com",
-      // contact: "8651045902"
+      fb: "https://www.facebook.com/bhoumik.mhatre.1",
+      linkedin: "https://www.linkedin.com/in/bhoumik-mhatre-5396b623a/",
+      contact: "8087562959",
+      mail:"bhoumikmhatre@gmail.com"
     },
     {
       // src: require("assets/img/denys.jpg"),
       name: "Aadit Shah",
       img: aadit,
       pos: "Senior Coordinator",
-      // fb: "https://www.facebook.com/siddharth.ghankot",
-      insta: '',
-      // linkedin: "https://www.linkedin.com/in/siddharth-ghankot-3aa015210/",
-      // mail: "siddharthghankot2003@gmail.com",
-      // contact: "8073539279"
+      fb: "https://www.facebook.com/aadit.shah.94?mibextid=LQQJ4d",
+      linkedin: "https://www.linkedin.com/in/aadit-shah-6b291022a",
+      contact: "9819250603",
+      mail:"shahaadit03@gmail.com"
     },
     {
       // src: require("assets/img/denys.jpg"),
       name: "Komal Arya",
       img: komal,
       pos: "Senior Coordinator",
-      fb: "https://www.facebook.com/aditya.mohite.5245",
-      insta: '',
-      linkedin: "https://www.linkedin.com/in/adityamohiteiit/",
-      mail: "adityamohite825@gmail.com",
-      contact: "7249123851"
+      fb: "https://www.facebook.com/komal.arya.7359447",
+      linkedin: "https://www.linkedin.com/in/komal-arya-381b0822b",
+      contact: "9102515688",
+      mail:"komalarya776@gmail.com"
     },
     {
       // src: require("assets/img/denys.jpg"),
       name: "Abhishek Tiwari",
       img: abhi,
       pos: "Graphics Design Coordinator",
-      // fb: "https://www.facebook.com/ChaudhariHariomVijay",
-      insta: '',
-      // linkedin: "https://www.linkedin.com/in/chaudharihariomvijay/",
-      // mail: "chaudharihariomvijay@gmail.com ",
-      // contact: "9561797648"
+      fb: "https://www.facebook.com/profile.php?id=100036010306556&mibextid=ZbWKwL",
+      linkedin: "https://www.linkedin.com/in/abhishek-tiwari-5608b21a3",
+      contact: "7489808207",
+      mail:"Abhishekpk120@gmail.com"
     },
 
     {
@@ -90,22 +85,21 @@ function contactus() {
       name: "Sharansh Vardhan",
       pos: "Senior Coordinator",
       img: shrnsh,
-      // fb: "https://www.facebook.com/samyukta.kagdelwar",
-      insta: '',
-      // linkedin: "https://www.linkedin.com/in/samyukta-kagdelwar-1027b020b/",
-      // mail: "samyuktakagdelwar7@gmail.com",
-      // contact: "7218204399"
+      fb: "https://www.facebook.com/profile.php?id=100023522052604&mibextid=ZbWKwL",
+      linkedin: "https://www.linkedin.com/in/sharansh-vardhan-289ba9248/",
+      contact: "6376339863",
+      mail:"ankitkumar18175468@gmail.com"
     },
     {
       // src: require("assets/img/denys.jpg"),
       name: "Ajay Biswas",
       pos: "Web Design Coordinator",
       img: ajay,
-      // fb: "https://www.facebook.com/vidit.gupta.79",
-      insta: '',
-      // linkedin: "https://www.linkedin.com/in/vidit-gupta-34662b207/",
-      // mail: "gvidit23@gmail.com",
-      // contact: "9174562462"
+      fb: "https://www.facebook.com/profile.php?id=100074748354912",
+      insta: 'https://www.instagram.com/blue_sq4/',
+      linkedin: "https://www.linkedin.com/in/ajay-biswas-8b0832237/",
+      mail: "ajaybiswas44442019@gmail.com",
+      contact: "7008454709"
     }
   ];
 
@@ -259,24 +253,24 @@ function contactus() {
     <>
       {/* //navbar here */}
       <section id="team">
-      <h1 className="team-title text-center">Our Amazing Team</h1>
+      <h1 className="team-title text-center" style={{color:"lavender",fontSize:"3rem"}}>OUR TEAM</h1>
       <div className="demo">
         <div className="container text-center">
-          <h3 className=" team-title" style={{color:"lavender"}}>Senior Coordinators</h3>
+          <h3 className=" team-title senior-title" style={{color:"lavender"}}>Executive Heads</h3>
           <div className="row">
             {headsData.map((ele, i) => {
               return (
                 <>
-                  <div className="col-md-4 my-4 col-sm-6 row">
+                  <div className="col-md-4 my-4 col-sm-6 ">
                     <div className="our-team">
                       <div className="team_img">
                         <img src={ele.img} />
                         <ul className="social-team">
                           <li><a href={ele.fb} target="_blank" rel="noreferrer"><i className="fab fa-facebook"></i></a></li>
-                          <li><a href={"mailto: " + ele.mail} target="_blank" rel="noreferrer"><i className="fa fa-envelope"></i></a></li>
-                          <li><a href={ele.linkedin}><i className="fab fa-linkedin" target="_blank" rel="noreferrer"></i></a></li>
+                          <li><a href={"https://mail.google.com/mail/?view=cm&fs=1&to="+ele.mail} target="_blank" rel="noreferrer"><i className="fa fa-envelope"></i></a></li>
+                          <li><a href={ele.linkedin} target="_blank" rel="noreferrer"><i className="fab fa-linkedin" ></i></a></li>
                           {/* <li><a href={ele.insta}><i className="fab fa-instagram" target="_blank"></i></a></li> */}
-                          <li><a href={"tel:" + ele.contact}><i className="fa fa-mobile" target="_blank" rel="noreferrer"></i></a></li>
+                          <li><a href={"tel:" + ele.contact} target="_blank" rel="noreferrer"><i className="fa fa-mobile" ></i></a></li>
                         </ul>
                       </div>
                       <div className="team-content">
@@ -299,10 +293,10 @@ function contactus() {
                     <div className="bg-dark row col-md-5 my-4 col-sm-5 d-flex align-items-center card_ mx-auto" >
                       <div className="col-md-4 col-sm-4 pfp"><img src={ele.img}></img></div>
                       <div className="card-body col-md-8 col-sm-8">
-                        <h4 className="card-title" style={{color:"white"}}>{ele.name}</h4>
-                        <h6 className="card-subtitle mb-2 text-muted">{ele.pos}</h6>
+                        <h4 className="card-title my-2" style={{color:"white"}}>{ele.name}</h4>
+                        {/* <h6 className="card-subtitle mb-2 text-muted">{ele.pos}</h6> */}
                         <a href={ele.fb} className="card-link mx-2" target="_blank" rel="noreferrer"><i className="fab fa-facebook" /></a>
-                        <a href={"mailto: " + ele.mail} className="card-link mx-2" target="_blank" rel="noreferrer"><i className="fa fa-envelope"></i></a>
+                        <a href={"https://mail.google.com/mail/?view=cm&fs=1&to="+ele.mail} className="card-link mx-2" target="_blank" rel="noreferrer"><i className="fa fa-envelope"></i></a>
                         <a href={contactLink} className="card-link mx-2" target="_blank" rel="noreferrer"><i className="fa fa-mobile "/></a>
                         <a href={ele.linkedin} className="card-link mx-2" target="_blank" rel="noreferrer"><i className="fab fa-linkedin "/></a>
                       </div>

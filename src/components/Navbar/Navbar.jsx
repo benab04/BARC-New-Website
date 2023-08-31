@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import "./Navbar.css"
 import {motion} from "framer-motion";
 import Img from "../../assets/images/Signature.jpg";
-
+import { HashLink } from 'react-router-hash-link';
 // import Toggle from "./nav";
 // import "../../assets/js/main"
 import {BsList} from "react-icons/bs";
@@ -81,10 +81,10 @@ function Navbar(){
       }
     }
     const activePage=window.location;
-    console.log(activePage);
+    // console.log(activePage);
     return (
       <motion.div
-      className="animate__zoomIn animate__delay-5s"
+      
       // variants={overlayVariants}
       // initial={{scale:0}}
       // animate={{scale:1}}
@@ -94,22 +94,19 @@ function Navbar(){
 
         <header id="header" className={header}>
     <div className="container-fluid container-xl d-flex align-items-center justify-content-between">
-
-      <a href="/" className="logo d-flex align-items-center " >
-        <img className="logo-img" src={Img} alt="" />
-        <span>BRANDING AND RELATIONS CELL</span>
-      </a>
-
+    <HashLink className="logo d-flex align-items-center "  to={"#home-page"}><img className="logo-img" src={Img} alt="" />
+        <span>BRANDING AND RELATIONS CELL</span></HashLink>
+     
       <nav id="navbar" className={Nav}>
       <div id="scrollspy1">
         <ul>
-          <li><a className="nav-link scrollto active home-page" href="home-page">Home</a></li>
-          <li><a className="nav-link scrollto about-page" href="about-page">About</a></li>
-          <li><a className="nav-link scrollto what-we-do" href="what-we-do">What We Do</a></li>
-          <li><a className="nav-link scrollto team"  href="team" target="_blank">Team</a></li>
-          <li><a className="nav-link scrollto testimonials-page" href="testimonials-page">Testimonials</a></li>
-          <li><a className="nav-link scrollto gallery" href="gallery">Gallery</a></li>
-          <li><a className="nav-link scrollto contact-us-page" href="contact-us-page">Contact</a></li>
+          <li><HashLink className="nav-link scrollto active home-page" style={{width:"auto"}} to={"#home-page"}>Home</HashLink></li>
+          <li><HashLink className="nav-link scrollto about-page" to={"#about-page"}>About</HashLink></li>
+          <li><HashLink className="nav-link scrollto what-we-do" to="#what-we-do">What We Do</HashLink></li>
+          <li><a className="nav-link scrollto team"  href="#/team" >Team</a></li>
+          <li><HashLink className="nav-link scrollto testimonials-page" to="#testimonials-page" >Testimonials</HashLink></li>
+          <li><HashLink  className="nav-link scrollto gallery" to="#gallery">Gallery</HashLink></li>
+          <li><HashLink className="nav-link scrollto contact-us-page" to="#contact-us-page">Contact</HashLink></li>
           <li><a className="getstarted " target="_blank" href="https://yip.iitkgp.ac.in/">Visit YIP</a></li>
           {/* <li><a className="getstarted " href="../YIP Coming Soon/src/index2.html">Visit YIP</a></li> */}
         </ul>

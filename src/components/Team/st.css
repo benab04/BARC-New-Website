@@ -1,3 +1,7 @@
+#team{
+    padding-top:80px;
+    background-color: #252C44;
+}
 .demo{
     /* background: #08707F; */
     background-color: #252C44;
@@ -5,8 +9,11 @@
 .our-team{
     text-align: center;
     color: white;
+    scale:0.9;
+   
 }
 .our-team .team_img{
+    
     position: relative;
     overflow: hidden;
     object-fit: cover;
@@ -50,6 +57,7 @@
     font-size: 15px;
     color: #fff;
 }
+
 .our-team:hover .social-team li a:hover{
     color: #2a4284;
 }
@@ -70,6 +78,9 @@
     font-weight: bold;
     margin-top: 2rem;
     margin-bottom: 1rem;
+  }
+  .senior-title{
+    padding-top:2rem !important;
   }
 .our-team .team-title:before{
     content: "";

@@ -83,13 +83,11 @@
   border-radius: 30px;
 }
 /* Add more buttons as yip-button4 and so on */
-#yip-button1,
-#yip-button2,
-#yip-button3 {
-  border: hidden;
-  background-color: lightblue;
-  border-radius: 20px;
-  margin: 1em;
+.yip-button {
+  border: hidden !important;
+  background-color: lightblue !important;
+  border-radius: 20px !important;
+  margin: 1em !important;
 }
 
 .text-success {
