@@ -8,6 +8,7 @@ import WhatWeDo from "./components/WhatWeDo/Wwd";
 import Contact from "./components/Contact/ContactUs";
 import Testimonials from "./components/Testimonials/testimonials";
 import Preloader from "./components/Preloader/Preloader";
+import Teamloader from "./components/Team Loader/teamloader"
 import Gallery from "./components/Gallery/gallery";
 import Footer from "./components/Footer/Footer";
 import Team from "./components/Team/Teams";
@@ -23,7 +24,7 @@ function App(){
     <HashRouter>
       <Routes>
         <Route exact path='/' element={<View/>} />
-        <Route exact path="/team" element={<div><PageNavbar/><Team/><Footer/></div>}/>
+        <Route exact path="/team" element={<div><Teamloader/><PageNavbar/><Team/><Footer/></div>}/>
         <Route exact path="/home-page" element={<View />}/>
       </Routes>
     </HashRouter>
