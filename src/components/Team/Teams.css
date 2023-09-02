@@ -73,9 +73,10 @@
 .our-team:hover .social-team li a:hover{
     color: #2a4284;
 }
+ 
 .our-team .team-content{
     padding: 20px 0;
-    background: #B8BFE0;
+    background: #C6CCE6;
     border-radius: 0 0 20px 20px;
 }
 .our-team .team-title{
