@@ -1,4 +1,4 @@
-import "./st.css";
+import "./Teams.css";
 //import navbar
 //import footer
 import img1 from './DeepakSomani.jpg';
@@ -11,13 +11,12 @@ import abhi from './abhi.jpeg'
 import shrnsh from './sharansh.jpg'
 import ajay from './ajay.png'
 
-
+import {motion} from "framer-motion";
 
 
 
 function contactus() {
-  const headsData = [
-
+  const gensecdata =[
     {
       // src: require("assets/img/denys.jpg"),
       img: aish,
@@ -38,6 +37,21 @@ function contactus() {
       linkedin: "https://www.linkedin.com/in/bhumi-tayal-725913226/",
       contact: "7684067297",
       mail:"tayalbhumi8@gmail.com"
+    }
+  ]
+  const headsData = [
+
+    
+    
+    {
+      // src: require("assets/img/denys.jpg"),
+      name: "Aadit Shah",
+      img: aadit,
+      pos: "Senior Coordinator",
+      fb: "https://www.facebook.com/aadit.shah.94?mibextid=LQQJ4d",
+      linkedin: "https://www.linkedin.com/in/aadit-shah-6b291022a",
+      contact: "9819250603",
+      mail:"shahaadit03@gmail.com"
     },
     {
       // src: require("assets/img/denys.jpg"),
@@ -51,16 +65,6 @@ function contactus() {
     },
     {
       // src: require("assets/img/denys.jpg"),
-      name: "Aadit Shah",
-      img: aadit,
-      pos: "Senior Coordinator",
-      fb: "https://www.facebook.com/aadit.shah.94?mibextid=LQQJ4d",
-      linkedin: "https://www.linkedin.com/in/aadit-shah-6b291022a",
-      contact: "9819250603",
-      mail:"shahaadit03@gmail.com"
-    },
-    {
-      // src: require("assets/img/denys.jpg"),
       name: "Komal Arya",
       img: komal,
       pos: "Senior Coordinator",
@@ -68,6 +72,16 @@ function contactus() {
       linkedin: "https://www.linkedin.com/in/komal-arya-381b0822b",
       contact: "9102515688",
       mail:"komalarya776@gmail.com"
+    },
+     {
+      // src: require("assets/img/denys.jpg"),
+      name: "Sharansh Vardhan",
+      pos: "Senior Coordinator",
+      img: shrnsh,
+      fb: "https://www.facebook.com/profile.php?id=100023522052604&mibextid=ZbWKwL",
+      linkedin: "https://www.linkedin.com/in/sharansh-vardhan-289ba9248/",
+      contact: "6376339863",
+      mail:"ankitkumar18175468@gmail.com"
     },
     {
       // src: require("assets/img/denys.jpg"),
@@ -80,16 +94,7 @@ function contactus() {
       mail:"Abhishekpk120@gmail.com"
     },
 
-    {
-      // src: require("assets/img/denys.jpg"),
-      name: "Sharansh Vardhan",
-      pos: "Senior Coordinator",
-      img: shrnsh,
-      fb: "https://www.facebook.com/profile.php?id=100023522052604&mibextid=ZbWKwL",
-      linkedin: "https://www.linkedin.com/in/sharansh-vardhan-289ba9248/",
-      contact: "6376339863",
-      mail:"ankitkumar18175468@gmail.com"
-    },
+   
     {
       // src: require("assets/img/denys.jpg"),
       name: "Ajay Biswas",
@@ -253,18 +258,87 @@ function contactus() {
     <>
       {/* //navbar here */}
       <section id="team">
-      <h1 className="team-title text-center" style={{color:"lavender",fontSize:"3rem"}}>OUR TEAM</h1>
+      <h1 className="team-title text-center" style={{color:"#08707f",fontSize:"3rem", fontFamily:"Raleway,sans-serif"}}>OUR PEOPLE</h1>
       <div className="demo">
         <div className="container text-center">
-          <h3 className=" team-title senior-title" style={{color:"lavender"}}>Executive Heads</h3>
+          <h3 className=" team-title senior-title" style={{color:"#08707f"}}>HEAD TEAM 2023</h3>
+          <div className="row d-flex justify-content-center align-items-center">
+            {gensecdata.map((ele, i) => {
+              return (
+                <>
+                  <div className=" col-lg-4 col-md-6 my-4 col-sm-6  " >
+                    <div className="our-team">
+                      <div className="team_img">
+                        <motion.img whileHover={{scale:1.1}} className="head-img" src={ele.img} ></motion.img>
+                        <ul className="social-team">
+                          <li><a href={ele.fb} target="_blank" rel="noreferrer"><i className="fab fa-facebook"></i></a></li>
+                          <li><a href={"https://mail.google.com/mail/?view=cm&fs=1&to="+ele.mail} target="_blank" rel="noreferrer"><i className="fa fa-envelope"></i></a></li>
+                          <li><a href={ele.linkedin} target="_blank" rel="noreferrer"><i className="fab fa-linkedin" ></i></a></li>
+                          {/* <li><a href={ele.insta}><i className="fab fa-instagram" target="_blank"></i></a></li> */}
+                          <li><a href={"tel:" + ele.contact} target="_blank" rel="noreferrer"><i className="fa fa-mobile" ></i></a></li>
+                        </ul>
+                      </div>
+                      <div className="team-content">
+                        <h3 className="team-title">{ele.name}</h3>
+                        <span className="post">{ele.pos}</span>
+                      </div>
+                    </div>
+                  </div>
+                </>
+              )
+            })}
+            </div>
+
+{/* 
+            <div className="d-flex justify-content-center align-items-center">
+            <div className=" col-lg-4 col-md-6 my-4 col-sm-6 " >
+                    <div className="our-team">
+                      <div className="team_img">
+                        <motion.img whileHover={{scale:1.1}} className="head-img" src={gensecdata[0].img} ></motion.img>
+                        <ul className="social-team">
+                          <li><a href={gensecdata[0].fb} target="_blank" rel="noreferrer"><i className="fab fa-facebook"></i></a></li>
+                          <li><a href={"https://mail.google.com/mail/?view=cm&fs=1&to="+gensecdata[0].mail} target="_blank" rel="noreferrer"><i className="fa fa-envelope"></i></a></li>
+                          <li><a href={gensecdata[0].linkedin} target="_blank" rel="noreferrer"><i className="fab fa-linkedin" ></i></a></li>
+                          <li><a href={ele.insta}><i className="fab fa-instagram" target="_blank"></i></a></li>
+                          <li><a href={"tel:" + gensecdata[0].contact} target="_blank" rel="noreferrer"><i className="fa fa-mobile" ></i></a></li>
+                        </ul>
+                      </div>
+                      <div className="team-content">
+                        <h3 className="team-title">{gensecdata[0].name}</h3>
+                        <span className="post">{gensecdata[0].pos}</span>
+                      </div>
+                    </div>
+                  </div>
+         
+
+          <div className=" col-lg-4 col-md-6 my-4 col-sm-6" >
+                    <div className="our-team">
+                      <div className="team_img">
+                        <motion.img whileHover={{scale:1.1}} className="head-img" src={gensecdata[1].img} ></motion.img>
+                        <ul className="social-team">
+                          <li><a href={gensecdata[1].fb} target="_blank" rel="noreferrer"><i className="fab fa-facebook"></i></a></li>
+                          <li><a href={"https://mail.google.com/mail/?view=cm&fs=1&to="+gensecdata[1].mail} target="_blank" rel="noreferrer"><i className="fa fa-envelope"></i></a></li>
+                          <li><a href={gensecdata[1].linkedin} target="_blank" rel="noreferrer"><i className="fab fa-linkedin" ></i></a></li>
+                          <li><a href={ele.insta}><i className="fab fa-instagram" target="_blank"></i></a></li>
+                          <li><a href={"tel:" + gensecdata[1].contact} target="_blank" rel="noreferrer"><i className="fa fa-mobile" ></i></a></li>
+                        </ul>
+                      </div>
+                      <div className="team-content">
+                        <h3 className="team-title">{gensecdata[1].name}</h3>
+                        <span className="post">{gensecdata[1].pos}</span>
+                      </div>
+                    </div>
+                  </div>
+
+                </div> */}
           <div className="row">
             {headsData.map((ele, i) => {
               return (
                 <>
-                  <div className="col-md-4 my-4 col-sm-6 ">
+                  <div className=" col-lg-4 col-md-6 my-4 col-sm-6 ">
                     <div className="our-team">
                       <div className="team_img">
-                        <img src={ele.img} />
+                        <motion.img whileHover={{scale:1.1}} className="head-img" src={ele.img} ></motion.img>
                         <ul className="social-team">
                           <li><a href={ele.fb} target="_blank" rel="noreferrer"><i className="fab fa-facebook"></i></a></li>
                           <li><a href={"https://mail.google.com/mail/?view=cm&fs=1&to="+ele.mail} target="_blank" rel="noreferrer"><i className="fa fa-envelope"></i></a></li>
@@ -284,21 +358,21 @@ function contactus() {
             })}
             
           </div>
-            <h3 className="team-title" style={{color:"lavender"}}>Student Members</h3>
+            <h3 className="team-title" style={{color:"#08707f", fontFamily:"Raleway,sans-serif"}}>STUDENT MEMBERS</h3>
             <div className="row">
               {studData.map((ele, i) => {
                 let contactLink = "tel:" + ele.contact;
                 return (
                   <>
-                    <div className="bg-dark row col-md-5 my-4 col-sm-5 d-flex align-items-center card_ mx-auto" >
-                      <div className="col-md-4 col-sm-4 pfp"><img src={ele.img}></img></div>
+                    <div className="studmemb row col-lg-5 col-md-7 my-4 col-sm-5 d-flex align-items-center card_ mx-auto"  style={{borderRadius:"20px"}}>
+                      <motion.div whileHover={{scale:1.2}} className="col-md-4 col-sm-4 pfp"><img className="smimage" src={ele.img}></img></motion.div>
                       <div className="card-body col-md-8 col-sm-8">
-                        <h4 className="card-title my-2" style={{color:"white"}}>{ele.name}</h4>
+                        <h4 className="card-title my-2" style={{color:"white", fontFamily:"Raleway,sans-serif"}}>{ele.name}</h4>
                         {/* <h6 className="card-subtitle mb-2 text-muted">{ele.pos}</h6> */}
-                        <a href={ele.fb} className="card-link mx-2" target="_blank" rel="noreferrer"><i className="fab fa-facebook" /></a>
+                        {/* <a href={ele.fb} className="card-link mx-2" target="_blank" rel="noreferrer"><i className="fab fa-facebook" /></a>
                         <a href={"https://mail.google.com/mail/?view=cm&fs=1&to="+ele.mail} className="card-link mx-2" target="_blank" rel="noreferrer"><i className="fa fa-envelope"></i></a>
                         <a href={contactLink} className="card-link mx-2" target="_blank" rel="noreferrer"><i className="fa fa-mobile "/></a>
-                        <a href={ele.linkedin} className="card-link mx-2" target="_blank" rel="noreferrer"><i className="fab fa-linkedin "/></a>
+                        <a href={ele.linkedin} className="card-link mx-2" target="_blank" rel="noreferrer"><i className="fab fa-linkedin "/></a> */}
                       </div>
                     </div>
                   </>

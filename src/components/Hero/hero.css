@@ -8,6 +8,9 @@ html{
     justify-content: center;
     align-items: center;
     position: relative;
+    background-image: url("../../assets/images/bgimage.png");
+    background-size: cover;
+    background-position: center;
   }
   video{
     width:100%;

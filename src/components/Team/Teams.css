@@ -1,10 +1,12 @@
 #team{
     padding-top:80px;
-    background-color: #252C44;
+    background-color: white;
+   
 }
 .demo{
     /* background: #08707F; */
-    background-color: #252C44;
+    background-color: white;
+    
 }
 .our-team{
     text-align: center;
@@ -17,6 +19,7 @@
     position: relative;
     overflow: hidden;
     object-fit: cover;
+    
 }
 .our-team .team_img:after{
     content: "";
@@ -30,10 +33,15 @@
 }
 .our-team:hover .team_img:after{
     bottom: 0;
+    border-radius: 20px 20px 0 0;
 }
 .our-team> img{
     width: 100%;
     height: auto;
+   
+}
+.head-img{
+    border-radius: 20px 20px 0 0;
 }
 .our-team .social-team{
     padding: 0 0 18px 0;
@@ -49,9 +57,13 @@
 }
 .our-team:hover .social-team{
     top: 0;
+    right:20px;
+    border-radius: 0 0 10px 10px;
+    
 }
 .our-team .social-team li a{
     display: block;
+
     padding: 5px 15px;
     /* padding: 5px; */
     font-size: 15px;
@@ -63,10 +75,13 @@
 }
 .our-team .team-content{
     padding: 20px 0;
-    background: #fff;
+    background: #B8BFE0;
+    border-radius: 0 0 20px 20px;
 }
 .our-team .team-title{
-    font-size: 18px;
+    font-family: 'Raleway',sans-serif;
+
+    font-size: 24px;
     font-weight: bold;
     color: #2a4284;
     text-transform: capitalize;
@@ -109,8 +124,9 @@
     width: 50px;
 }
 .our-team .post{
+    font-family: 'Raleway',sans-serif;
     display: inline-block;
-    font-size: 15px;
+    font-size: 19px;
     color:  #f76c5e;
     text-transform: capitalize;
 }
@@ -124,6 +140,9 @@
     margin: 0 auto;
     position: relative;
     top: -13px;
+}
+.studmemb{
+    background-color: #29335C;
 }
 @media screen and (max-width: 1050px){
     .team-title{
