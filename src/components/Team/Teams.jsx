@@ -2,14 +2,14 @@ import "./Teams.css";
 //import navbar
 //import footer
 import img1 from './DeepakSomani.jpg';
-import aish from './aish.jpg'
-import bhumi from './bhumi.jpg'
-import bhoumik from './bhoumik.jpg'
-import aadit from './aadit.png'
-import komal from './komal.jpg'
-import abhi from './abhi.jpeg'
-import shrnsh from './sharansh.jpg'
-import ajay from './ajay.png'
+import aish from './Heads/aish.jpg'
+import bhumi from './Heads/bhumi.jpg'
+import bhoumik from './Heads/bhoumik.jpg'
+import aadit from './Heads/aadit.png'
+import komal from './Heads/komal.jpg'
+import abhi from './Heads/abhi.jpeg'
+import shrnsh from './Heads/sharansh.jpg'
+import ajay from './Heads/ajay.png'
 
 import {motion} from "framer-motion";
 
