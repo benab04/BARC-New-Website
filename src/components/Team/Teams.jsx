@@ -12,10 +12,12 @@ import shrnsh from './Heads/sharansh.jpg'
 import ajay from './Heads/ajay.png'
 
 import {motion} from "framer-motion";
+import { useState } from "react";
 
 
 
-function contactus() {
+function Teams() {
+  
   const gensecdata =[
     {
       // src: require("assets/img/denys.jpg"),
@@ -263,7 +265,7 @@ function contactus() {
       <h1 className="team-title text-center" style={{color:"#08707f",fontSize:"3rem", fontFamily:"Raleway,sans-serif"}}>OUR PEOPLE</h1>
       <div className="demo">
         <div className="container text-center">
-          <h3 className=" team-title senior-title" style={{color:"#08707f"}}>HEAD TEAM 2023</h3>
+          <h3 className=" team-title senior-title" style={{color:"#08707f"}}><span style={{fontFamily:"Raleway,sans-serif"}}>HEAD TEAM </span>2023</h3>
           <div className="row d-flex justify-content-center align-items-center">
             {gensecdata.map((ele, i) => {
               return (
@@ -273,7 +275,7 @@ function contactus() {
                       <div className="team_img">
                         <motion.img whileHover={{scale:1.1}} className="head-img" src={ele.img} ></motion.img>
                         <ul className="social-team">
-                          <li><a  href={ele.fb} target="_blank" rel="noreferrer"><i className="fab fa-facebook"></i></a></li>
+                          <li><a  href={ele.fb} target="_blank" rel="noreferrer"><i className="fab fa-facebook" ></i></a></li>
                           <li><a href={"https://mail.google.com/mail/?view=cm&fs=1&to="+ele.mail} target="_blank" rel="noreferrer"><i className="fa fa-envelope"></i></a></li>
                           <li><a href={ele.linkedin} target="_blank" rel="noreferrer"><i className="fab fa-linkedin" ></i></a></li>
                           {/* <li><a href={ele.insta}><i className="fab fa-instagram" target="_blank"></i></a></li> */}
@@ -360,7 +362,7 @@ function contactus() {
             })}
             
           </div>
-            <h3 className="team-title" style={{color:"#08707f", fontFamily:"Raleway,sans-serif"}}>STUDENT MEMBERS</h3>
+            <h3 className="team-title" style={{color:"#08707f", fontFamily:"Raleway,sans-serif",marginBottom:"4rem",marginTop:"5rem"}}>STUDENT MEMBERS</h3>
             <div className="row">
               {studData.map((ele, i) => {
                 {/* let contfactLink = "tel:" + ele.contact; */}
@@ -394,4 +396,4 @@ function contactus() {
   );
 }
 
-export default contactus;
+export default Teams;

@@ -9,8 +9,6 @@ import Preloader from "../../Preloader/Preloader";
 import Gallery from "../../Gallery/gallery";
 import Footer from "../../Footer/Footer";
 import ScrollTop from "../../ScrollTop/scrolltop";
-
-
 function View(){
     return (
         <div id="view">
