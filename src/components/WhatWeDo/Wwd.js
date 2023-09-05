@@ -1,9 +1,10 @@
 import { useState, useEffect,useRef } from 'react';
 import {motion,useInView} from "framer-motion";
 import './Wwd.css';
-import img2 from './YIP.png';
-import img3 from './SPOT.png';
-import img1 from './UGAD.png';
+import img2 from './thumbnails/YIP.png';
+import img3 from './thumbnails/SPOT.png';
+import img1 from './thumbnails/UGAD.png';
+import img4 from './thumbnails/kgpdirectory.png';
 
 function WWD() {
   const [bgimg, setbgimg] = useState(img1)
@@ -18,11 +19,9 @@ function WWD() {
           opacity: isInView3 ? 1 : 0,
           transition: "all 2s cubic-bezier(0.17, 0.55, 0.55, 1) 0.2s"
         }} className='wwd-title'>WHAT WE DO</motion.h1>
-      <div class="container col-md-4 col-xs-4 my-3 " id='con1'>
+      <div class="container mx-0 col-lg-3 col-md-2 col-xs-3 my-3 " id='con1'>
       
-        <div class="card"
-        
-        >
+        <div class="card">
           <div class="front text-center">
           <img src={img1} alt="img1" />
             <div className="text">UG Achievers Directory</div>
@@ -33,7 +32,7 @@ function WWD() {
         </div>
        
       </div>
-      <div class="container col-md-4 col-xs-4 my-3" id='con2'>
+      <div class="container mx-0 col-lg-3 col-md-2 col-xs-3 my-3" id='con2'>
         <div class="card"
         >
           <div class="front text-center">
@@ -45,7 +44,7 @@ function WWD() {
           </div>
         </div>
       </div>
-      <div class="container col-md-4 col-xs-4 my-3" id='con3'>
+      <div class="container mx-0 col-lg-3 col-md-2 col-xs-3 my-3" id='con3'>
         <div class="card"
         >
           <div class="front text-center col">
@@ -54,6 +53,18 @@ function WWD() {
           </div>
           <div class="back text-center" >
             <p>The Branding and Relations Cell has launched a ‘Spotlight’ initiative for IIT Kharagpur students, allowing students to highlight their accomplishments and awards. In the Spotlight series, the achievements of students in the fields of sports, academics, technology, sociocultural activities, and work in the field of public welfare are highlighted.</p>
+          </div>
+        </div>
+      </div>
+      <div class="container mx-0 col-lg-3 col-md-2 col-xs-3 my-3" id='con4'>
+        <div class="card"
+        >
+          <div class="front text-center col">
+            <img src={img4} alt="img1"  style={{objectFit:"cover"}}/>
+            <div className="text my-5">KGP Directory</div>
+          </div>
+          <div class="back text-center" >
+            <p>KGP Directory is an initiative of the Branding and Relations Cell, which comprises everything about IIT Kharagpur in a highly structured format. It contains all the essential information a fresher would require about IIT Kharagpur, all under one roof.</p>
           </div>
         </div>
       </div>
