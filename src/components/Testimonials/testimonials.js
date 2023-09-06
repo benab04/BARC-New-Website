@@ -58,7 +58,7 @@ const Slideshow = () => {
             <div>
               
              <p className={`quote ${activeIndex === 0 ? 'active' : ''} p`}>
-              <span className='span'   ><b>Virendra Kumar Tiwari</b></span>
+              <span className='span'   ><b>Prof. Virendra Kumar Tewari</b></span>
               <br></br>
               <span className="designation" >Director, IIT Kharagpur</span>
               <br></br>
@@ -69,7 +69,7 @@ const Slideshow = () => {
             <div>
             <p className={`quote ${activeIndex === 1 ? 'active' : ''} p`}>
             <br></br>
-            <span className='span' >Baidurya Bhattacharya</span>
+            <span className='span' >Prof. Baidurya Bhattacharya</span>
             <br></br>
               <span  className="designation" >Associate Dean, Alumni Affairs and Branding, IIT Kharagpur</span>
              <br></br>

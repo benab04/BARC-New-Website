@@ -26,5 +26,12 @@
 }s
 .gallery-slides{
     margin-top: -20px;
-    scale:0.7;
+  
+ 
 }
+
+  
+  /* Adjust the size of the images within the gallery */
+  .image-gallery-image {
+    scale:0.85;
+  }

@@ -80,8 +80,11 @@ function PageNavbar(){
     switchIcon("fa-solid fa-bars mobile-nav-toggle");
       }
     }
-    const activePage=window.location;
+    // const activePage=window.location;
     // console.log(activePage);
+    const scrollToTop = () => {
+      window.scrollTo({ top: 0, behavior: "smooth" });
+    };
     return (
       <motion.div
       
@@ -101,7 +104,7 @@ function PageNavbar(){
       <div id="scrollspy1">
         <ul>
           
-          <li><a className="getstarted" href="#/home-page">Go Home</a></li>
+          <li><a onClick={scrollToTop} className="getstarted" href="#/home-page">Go Home</a></li>
           {/* <li><a className="getstarted " href="../YIP Coming Soon/src/index2.html">Visit YIP</a></li> */}
         </ul>
         </div>

@@ -81,8 +81,12 @@ function Navbar(){
     switchIcon("fa-solid fa-bars mobile-nav-toggle");
       }
     }
-    const activePage=window.location;
+    // const activePage=window.location;
     // console.log(activePage);
+    const scrollToTop = () => {
+      window.scrollTo({ top: 0, behavior: "smooth" });
+    };
+  
     return (
       <motion.div
       
@@ -104,7 +108,7 @@ function Navbar(){
           <li><HashLink className="nav-link scrollto active home-page" style={{width:"auto"}} to={"#home-page"}>Home</HashLink></li>
           <li><HashLink className="nav-link scrollto about-page" to={"#about-page"}>About</HashLink></li>
           <li><HashLink className="nav-link scrollto what-we-do" to="#what-we-do">What We Do</HashLink></li>
-          <li><a className="nav-link scrollto team"  href="#/team" >Team</a></li>
+          <li><a onClick={scrollToTop} className="nav-link scrollto team"  href="#/team" >Team</a></li>
           <li><HashLink className="nav-link scrollto testimonials-page" to="#testimonials-page" >Testimonials</HashLink></li>
           <li><HashLink  className="nav-link scrollto gallery" to="#gallery">Gallery</HashLink></li>
           <li><HashLink className="nav-link scrollto contact-us-page" to="#contact-us-page">Contact</HashLink></li>
