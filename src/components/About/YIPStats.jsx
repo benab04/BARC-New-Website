@@ -40,7 +40,7 @@ import YIP from "./YIPdata.js";
 //     }, step);
 // }
 function YIPstats() {
-  const [iconTabs, setIconsTabs] = useState(1);
+  const [iconTabs, setIconsTabs] = useState(4);
   // counter("2019-first", 0, 1200, 1500);
   // counter("2019-second", 1200, 2400, 1500);
   // counter("2019-third", 1, 32, 5000);

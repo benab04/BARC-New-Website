@@ -97,14 +97,14 @@ function PageNavbar(){
 
         <header id="header" className={header}>
     <div className="container-fluid container-xl d-flex align-items-center justify-content-between">
-    <HashLink className="logo d-flex align-items-center "  to={"/home-page"}><img className="logo-img" src={Img} alt="" />
+    <HashLink onClick={scrollToTop} className="logo d-flex align-items-center "  to={"/home-page"}><img className="logo-img" src={Img} alt="" />
         <span>BRANDING AND RELATIONS CELL</span></HashLink>
      
       <nav id="navbar" className={Nav}>
       <div id="scrollspy1">
         <ul>
           
-          <li><a onClick={scrollToTop} className="getstarted" href="#/home-page">Go Home</a></li>
+          <li><a onClick={scrollToTop} className="getstarted" href="#/home-page">Home</a></li>
           {/* <li><a className="getstarted " href="../YIP Coming Soon/src/index2.html">Visit YIP</a></li> */}
         </ul>
         </div>
