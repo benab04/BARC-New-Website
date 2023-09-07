@@ -256,6 +256,7 @@ function Teams() {
       mail:"saraswatvishal007@gmail.com"
     }
   ]
+  
   return (
     <>
 
@@ -272,8 +273,11 @@ function Teams() {
                 <>
                   <div className=" col-lg-4 col-md-6 my-4 col-sm-6  " >
                     <div className="our-team">
-                      <div className="team_img">
-                        <motion.img whileHover={{scale:1.1}} className="head-img" src={ele.img} ></motion.img>
+                      <motion.div 
+                       className="team_img">
+                        <motion.img 
+                       
+                         className="head-img" src={ele.img} ></motion.img>
                         <ul className="social-team">
                           <li><a  href={ele.fb} target="_blank" rel="noreferrer"><i className="fab fa-facebook" ></i></a></li>
                           <li><a href={"https://mail.google.com/mail/?view=cm&fs=1&to="+ele.mail} target="_blank" rel="noreferrer"><i className="fa fa-envelope"></i></a></li>
@@ -281,7 +285,7 @@ function Teams() {
                           {/* <li><a href={ele.insta}><i className="fab fa-instagram" target="_blank"></i></a></li> */}
                           <li><a href={"tel:" + ele.contact} target="_blank" rel="noreferrer"><i className="fa fa-mobile" ></i></a></li>
                         </ul>
-                      </div>
+                      </motion.div>
                       <div className="team-content">
                         <h3 className="team-title">{ele.name}</h3>
                         <span style={{color:"red "}} className="post">{ele.pos}</span>
@@ -342,7 +346,7 @@ function Teams() {
                   <div className=" col-lg-4 col-md-6 my-4 col-sm-6 ">
                     <div className="our-team">
                       <div className="team_img">
-                        <motion.img whileHover={{scale:1.1}} className="head-img" src={ele.img} ></motion.img>
+                        <motion.img  className="head-img" src={ele.img} ></motion.img>
                         <ul className="social-team">
                           <li><a href={ele.fb} target="_blank" rel="noreferrer"><i className="fab fa-facebook"></i></a></li>
                           <li><a href={"https://mail.google.com/mail/?view=cm&fs=1&to="+ele.mail} target="_blank" rel="noreferrer"><i className="fa fa-envelope"></i></a></li>

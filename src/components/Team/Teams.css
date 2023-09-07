@@ -31,6 +31,7 @@
     left: 0;
     transition: all 0.3s ease 0s;
 }
+
 .our-team:hover .team_img:after{
     bottom: 0;
     border-radius: 20px 20px 0 0;
