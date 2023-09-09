@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import "./Navbar.css"
 import {motion} from "framer-motion";
-import Img from "../../assets/images/Signature.jpg";
+import Img from "../../assets/images/barclogo.png";
 import { HashLink } from 'react-router-hash-link';
 // import Toggle from "./nav";
 // import "../../assets/js/main"
@@ -99,8 +99,8 @@ function Navbar(){
 
         <header id="header" className={header}>
     <div className="container-fluid container-xl d-flex align-items-center justify-content-between">
-    <HashLink className="logo d-flex align-items-center "  to={"#home-page"}><img className="logo-img" src={Img} alt="" />
-        <span>BRANDING AND RELATIONS CELL</span></HashLink>
+    <HashLink className="logo d-flex align-items-center "  to={"#home-page"}><img style={{scale:"1.1"}} className="logo-img" src={Img} alt="" />
+        <span></span></HashLink>
      
       <nav id="navbar" className={Nav}>
       <div id="scrollspy1">
@@ -109,10 +109,10 @@ function Navbar(){
           <li><HashLink className="nav-link scrollto about-page" to={"#about-page"}>About</HashLink></li>
           <li><HashLink className="nav-link scrollto what-we-do" to="#what-we-do">What We Do</HashLink></li>
           <li><a onClick={scrollToTop} className="nav-link scrollto team"  href="#/team" >Team</a></li>
-          <li><HashLink className="nav-link scrollto testimonials-page" to="#testimonials-page" >Testimonials</HashLink></li>
+          {/* <li><HashLink className="nav-link scrollto testimonials-page" to="#testimonials-page" >Testimonials</HashLink></li> */}
           <li><HashLink  className="nav-link scrollto gallery" to="#gallery">Gallery</HashLink></li>
           <li><HashLink className="nav-link scrollto contact-us-page" to="#contact-us-page">Contact</HashLink></li>
-          <li><a className="getstarted " target="_blank" href="https://yip.iitkgp.ac.in/">Visit YIP</a></li>
+          {/* <li><a className="getstarted " target="_blank" href="https://yip.iitkgp.ac.in/">Visit YIP</a></li> */}
           {/* <li><a className="getstarted " href="../YIP Coming Soon/src/index2.html">Visit YIP</a></li> */}
         </ul>
         </div>

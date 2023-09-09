@@ -83,12 +83,21 @@
   padding: 2rem;
   font-weight: 500;
 }
-.front>img{
+.profile_img>img{
+  object-fit: contain;
+  height: 25rem;
+  width: 100%;
+}
+.profile_img{
+  height: 25rem;
+  width: 100%;
+}
+/* .front>img{
   object-fit: cover;
   height: 25rem;
   width: 100%;
   border-radius: 20px;
-}
+} */
 /* .front{
   align-items: center !important;
 } */

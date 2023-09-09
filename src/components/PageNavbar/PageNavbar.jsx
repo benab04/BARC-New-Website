@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import "./PageNavbar.css"
 import {motion} from "framer-motion";
-import Img from "../../assets/images/Signature.jpg";
+import Img from "../../assets/images/barclogo.png";
 import { HashLink } from 'react-router-hash-link';
 // import Toggle from "./nav";
 // import "../../assets/js/main"
@@ -97,8 +97,8 @@ function PageNavbar(){
 
         <header id="header" className={header}>
     <div className="container-fluid container-xl d-flex align-items-center justify-content-between">
-    <HashLink onClick={scrollToTop} className="logo d-flex align-items-center "  to={"/home-page"}><img className="logo-img" src={Img} alt="" />
-        <span>BRANDING AND RELATIONS CELL</span></HashLink>
+    <HashLink onClick={scrollToTop} className="logo d-flex align-items-center "  to={"/home-page"}><img className="logo-img" style={{scale:"1.1"}} src={Img}  alt="" />
+        <span></span></HashLink>
      
       <nav id="navbar" className={Nav}>
       <div id="scrollspy1">

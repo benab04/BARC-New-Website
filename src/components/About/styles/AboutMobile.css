@@ -139,7 +139,8 @@
   background-color: none;
 }
 .count-title {
-  color: #0cacc4;
+  font-family:'Raleway',sans-serif;
+  color: white;
   /* text-decoration: none; */
   /* font-size: 0; */
   font-size: max(1.3vw, 1rem);

@@ -23,7 +23,7 @@ function WWD() {
       
         <div class="card">
           <div class="front text-center">
-          <img src={img1} alt="img1" />
+          <div className="profile_img"><img className='mx-0' src={img1} alt="img1" style={{objectFit:"contain"}} /></div>
             <div className="text">UG Achievers Directory</div>
           </div>
           <div class="back text-center">
@@ -36,7 +36,7 @@ function WWD() {
         <div class="card"
         >
           <div class="front text-center">
-            <img src={img2} alt="img1" style={{objectFit:"contain"}}/>
+           <div className="profile_img"> <img src={img2} alt="img1" style={{objectFit:"contain"}}/></div>
             <div className="text">Young Innovator's Program</div>
             </div>
           <div class="back text-center">
@@ -48,7 +48,7 @@ function WWD() {
         <div class="card"
         >
           <div class="front text-center col">
-            <img src={img3} alt="img1"  style={{objectFit:"contain"}}/>
+           <div className="profile_img"> <img src={img3} alt="img1"  style={{objectFit:"contain"}}/></div>
             <div className="text my-5">Spotlight</div>
           </div>
           <div class="back text-center" >
@@ -60,7 +60,7 @@ function WWD() {
         <div class="card"
         >
           <div class="front text-center col">
-            <img src={img4} alt="img1"  style={{objectFit:"cover"}}/>
+            <div className="profile_img"><img src={img4} alt="img1"  style={{objectFit:"contain"}}/></div>
             <div className="text my-5">KGP Directory</div>
           </div>
           <div class="back text-center" >

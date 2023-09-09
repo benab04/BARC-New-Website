@@ -4,7 +4,7 @@ import Navbar from "../../Navbar/Navbar";
 import AboutUs from "../../About/AboutUs";
 import WhatWeDo from "../../WhatWeDo/Wwd";
 import Contact from "../../Contact/ContactUs";
-import Testimonials from "../../Testimonials/testimonials";
+// import Testimonials from "../../Testimonials/testimonials";
 import Preloader from "../../Preloader/Preloader";
 import Gallery from "../../Gallery/gallery";
 import Footer from "../../Footer/Footer";
@@ -18,7 +18,7 @@ function View(){
     <Hero />
     <AboutUs />
     <WhatWeDo />
-    <Testimonials />
+    {/* <Testimonials /> */}
     
     <Gallery /> 
     
