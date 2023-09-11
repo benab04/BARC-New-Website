@@ -90,6 +90,17 @@ function ContactInfo() {
               style={{ fontSize: "20px", color: "white" }}
             ></motion.i>
           </a>
+          <a
+            target="_blank"
+            rel="noreferrer"
+            href="https://www.youtube.com/@barciitkgp"
+          >
+            <motion.i
+              whileHover={{ scale: 1.3 }}
+              className="fa fa-youtube-square"
+              style={{ fontSize: "20px", color: "white" }}
+            ></motion.i>
+          </a>
         </div>
       </div>
     </div>

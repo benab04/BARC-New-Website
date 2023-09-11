@@ -266,7 +266,7 @@ function Teams() {
       <h1 className="team-title text-center" style={{color:"#08707f",fontSize:"3rem", fontFamily:"Raleway,sans-serif"}}>OUR PEOPLE</h1>
       <div className="demo">
         <div className="container text-center">
-          <h3 className=" team-title senior-title" style={{color:"#08707f"}}><span style={{fontFamily:"Raleway,sans-serif"}}>HEAD TEAM </span>2023</h3>
+          <h3 className=" team-title senior-title" style={{color:"#08707f"}}><span style={{fontFamily:"Raleway,sans-serif"}}>EXECUTIVE TEAM </span>2023</h3>
           <div className="row d-flex justify-content-center align-items-center">
             {gensecdata.map((ele, i) => {
               return (

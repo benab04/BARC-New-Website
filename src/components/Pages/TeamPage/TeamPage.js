@@ -3,7 +3,7 @@ import PageNavbar from "../../PageNavbar/PageNavbar";
 import ScrollTop from "../../ScrollTop/scrolltop";
 import Teamloader from "../../Team Loader/teamloader"
 import Team from "../../Team/Teams";
-import Footer from "../../Footer/Footer";
+import Footer from "../../PageFooter/Footer";
 
 
 function TeamPage(){
