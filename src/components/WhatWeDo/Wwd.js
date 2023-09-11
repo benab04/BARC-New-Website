@@ -37,7 +37,7 @@ function WWD() {
         >
           <div class="front text-center">
            <div className="profile_img"> <img src={img2} alt="img1" style={{objectFit:"contain"}}/></div>
-            <div className="text">Young Innovator's Program</div>
+            <div className="text">Young Innovators' Program</div>
             </div>
           <div class="back text-center">
             <p>Young Innovator's Program is a platform to foster young minds with scientific enthusiasm and a credo to solve the problems facing the globe. In a two day visit to IIT Kharagpur, the students will get a chance to explore the scientific environment within and an opportunity to present their projects in front of distinguished researches and guests.</p>

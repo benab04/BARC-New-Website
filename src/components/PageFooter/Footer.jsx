@@ -79,8 +79,8 @@ function Footer(){
         <div class="col-lg-2 col-6 footer-links">
           <h4>Our Services</h4>
           <ul>
-            <li><a href="#">Young Innovators Program</a></li>
-            <li><a href="#">UG Achiever's Directory</a></li>
+            <li><a href="#">Young Innovators' Program</a></li>
+            <li><a href="#">UG Achievers Directory</a></li>
             <li><a href="#">Spotlight</a></li>
             <li><a href="#">KGP Directory</a></li>
             
