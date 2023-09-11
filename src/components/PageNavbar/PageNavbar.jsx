@@ -104,7 +104,7 @@ function PageNavbar(){
       <div id="scrollspy1">
         <ul>
           
-          <li><a onClick={scrollToTop} className="getstarted" href="#/home-page">Home</a></li>
+          <li onClick={mobNav}><a onClick={scrollToTop} className="getstarted" href="#/home-page">Home</a></li>
           {/* <li><a className="getstarted " href="../YIP Coming Soon/src/index2.html">Visit YIP</a></li> */}
         </ul>
         </div>
