@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/BARC-New-Website/static/css/main.6d3fb316.css",
-    "main.js": "/BARC-New-Website/static/js/main.4e887aec.js",
+    "main.js": "/BARC-New-Website/static/js/main.ff436a5d.js",
     "static/media/BGV3.mp4": "/BARC-New-Website/static/media/BGV3.859acd2c847240ffdd78.mp4",
     "static/media/kgpdirectory.png": "/BARC-New-Website/static/media/kgpdirectory.dbb3dc2bb230630b6731.png",
     "static/media/bgimage.png": "/BARC-New-Website/static/media/bgimage.53f1ce1a544234b78d24.png",
@@ -48,10 +48,10 @@
     "static/media/wave6.svg": "/BARC-New-Website/static/media/wave6.e00a1178602f784b8a04.svg",
     "static/media/wave2.svg": "/BARC-New-Website/static/media/wave2.36806dc239ca2accfe96.svg",
     "main.6d3fb316.css.map": "/BARC-New-Website/static/css/main.6d3fb316.css.map",
-    "main.4e887aec.js.map": "/BARC-New-Website/static/js/main.4e887aec.js.map"
+    "main.ff436a5d.js.map": "/BARC-New-Website/static/js/main.ff436a5d.js.map"
   },
   "entrypoints": [
     "static/css/main.6d3fb316.css",
-    "static/js/main.4e887aec.js"
+    "static/js/main.ff436a5d.js"
   ]
 }
