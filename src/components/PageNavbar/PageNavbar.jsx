@@ -85,6 +85,9 @@ function PageNavbar(){
     const scrollToTop = () => {
       window.scrollTo({ top: 0, behavior: "smooth" });
     };
+    function closeNav(){
+      if(Nav==="navbar-mobile"){ mobNav()}
+    }
     return (
       <motion.div
       
@@ -104,7 +107,7 @@ function PageNavbar(){
       <div id="scrollspy1">
         <ul>
           
-          <li onClick={mobNav}><a onClick={scrollToTop} className="getstarted" href="#/home-page">Home</a></li>
+          <li onClick={closeNav}><a onClick={scrollToTop} className="getstarted" href="#/home-page">Home</a></li>
           {/* <li><a className="getstarted " href="../YIP Coming Soon/src/index2.html">Visit YIP</a></li> */}
         </ul>
         </div>

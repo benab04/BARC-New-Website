@@ -82,7 +82,9 @@ function Navbar(){
     switchIcon("fa-solid fa-bars mobile-nav-toggle");
       }
     }
-    
+    function closeNav(){
+      if(Nav==="navbar-mobile"){ mobNav()}
+    }
     // const activePage=window.location;
     // console.log(activePage);
     const scrollToTop = () => {
@@ -107,13 +109,13 @@ function Navbar(){
       <nav id="navbar" className={Nav}>
       <div id="scrollspy1">
         <ul>
-          <li onClick={mobNav}><HashLink  className="nav-link scrollto active home-page" style={{width:"auto"}} to={"#home-page"}>Home</HashLink></li>
-          <li onClick={mobNav}><HashLink className="nav-link scrollto about-page" to={"#about-page"}>About</HashLink></li>
-          <li onClick={mobNav}><HashLink className="nav-link scrollto what-we-do" to="#what-we-do">What We Do</HashLink></li>
-          <li onClick={mobNav}><a onClick={scrollToTop} className="nav-link scrollto team"  href="#/team" >Team</a></li>
+          <li onClick={closeNav}><HashLink  className="nav-link scrollto active home-page" style={{width:"auto"}} to={"#home-page"}>Home</HashLink></li>
+          <li onClick={closeNav}><HashLink className="nav-link scrollto about-page" to={"#about-page"}>About</HashLink></li>
+          <li onClick={closeNav}><HashLink className="nav-link scrollto what-we-do" to="#what-we-do">What We Do</HashLink></li>
+          <li onClick={closeNav}><a onClick={scrollToTop} className="nav-link scrollto team"  href="#/team" >Team</a></li>
           {/* <li><HashLink className="nav-link scrollto testimonials-page" to="#testimonials-page" >Testimonials</HashLink></li> */}
-          <li onClick={mobNav}><HashLink  className="nav-link scrollto gallery" to="#gallery">Gallery</HashLink></li>
-          <li onClick={mobNav}><HashLink className="nav-link scrollto contact-us-page" to="#contact-us-page">Contact</HashLink></li>
+          <li onClick={closeNav}><HashLink  className="nav-link scrollto gallery" to="#gallery">Gallery</HashLink></li>
+          <li onClick={closeNav}><HashLink className="nav-link scrollto contact-us-page" to="#contact-us-page">Contact</HashLink></li>
           {/* <li><a className="getstarted " target="_blank" href="https://yip.iitkgp.ac.in/">Visit YIP</a></li> */}
           {/* <li><a className="getstarted " href="../YIP Coming Soon/src/index2.html">Visit YIP</a></li> */}
         </ul>
