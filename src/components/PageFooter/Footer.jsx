@@ -1,7 +1,9 @@
 import React from "react"
 import { HashLink } from 'react-router-hash-link';
 
-import "./Footer.css"
+import "./Footer.css";
+import "./scrollbar.css";//styling the scrollar
+
 function Footer(){
     const time=new Date().getFullYear();
     const scrollToTop = () => {

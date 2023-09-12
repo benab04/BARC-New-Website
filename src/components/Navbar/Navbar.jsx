@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import "./Navbar.css"
-import {motion} from "framer-motion";
+import {motion, transform} from "framer-motion";
 import Img from "../../assets/images/barclogo.png";
 import { HashLink } from 'react-router-hash-link';
 // import Toggle from "./nav";
@@ -106,9 +106,17 @@ function Navbar(){
     <HashLink className="logo d-flex align-items-center "  to={"#home-page"}><img style={{scale:"1.1"}} className="logo-img" src={Img} alt="" />
         <span></span></HashLink>
      
-      <nav id="navbar" className={Nav}>
+      <nav 
+      
+       id="navbar" className={Nav}>
       <div id="scrollspy1">
-        <ul>
+        <ul
+
+      //   initial={Nav==="navbar-mobile"?{}:{}}
+      // animate={Nav==="navbar-mobile"?{x: ["100%", "0%"]}:{x:0}}
+      // transition={{  times: [0.01, 0.4] }}
+        
+        >
           <li onClick={closeNav}><HashLink  className="nav-link scrollto active home-page" style={{width:"auto"}} to={"#home-page"}>Home</HashLink></li>
           <li onClick={closeNav}><HashLink className="nav-link scrollto about-page" to={"#about-page"}>About</HashLink></li>
           <li onClick={closeNav}><HashLink className="nav-link scrollto what-we-do" to="#what-we-do">What We Do</HashLink></li>
