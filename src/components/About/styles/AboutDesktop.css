@@ -6,6 +6,7 @@
     background-image: url("../waves5.svg");
     background-position: center;
     background-size: cover;
+    /* z-index:999; */
   }
   .yipnav .active {
     filter:drop-shadow(3px 4px 4px #0e0e0e);  

@@ -3,6 +3,7 @@ import {motion} from "framer-motion";
 import Img from "../../assets/images/Signature.jpg";
 import './hero.css';
 import { HashLink } from "react-router-hash-link";
+import React, { useEffect } from 'react'; 
 // import IndexNavbar from "./components/Navbar/IndexNavbar";
 // import Navbar from "./components/Navbar/Navbar"
 function App() {
@@ -38,6 +39,19 @@ function App() {
     }
     
   }
+  useEffect(() => {
+    const parallaxBg = document.querySelector('.title');
+
+    window.addEventListener('scroll', () => {
+      const scrollY = window.scrollY;
+      parallaxBg.style.transform = `translateY(-${scrollY * 0.36}px)`;
+    });
+
+    return () => {
+      // Clean up the event listener when the component unmounts
+      window.removeEventListener('scroll', () => {});
+    };
+  }, []);
   return (
     <section id="home-page">
     <div id="home" className="home">

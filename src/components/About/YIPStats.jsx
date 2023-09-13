@@ -92,7 +92,7 @@ function YIPstats() {
     //  }
     //  transition={{duration:0.3,ease:"easeIn"}}
      >
-      <h3 className="yipstats-heading">Young Innovator's Program</h3>
+      <h3 className="yipstats-heading">Young Innovators' Program</h3>
       </motion.div>
       <motion.div className="yipcard"
        ref={ref2}

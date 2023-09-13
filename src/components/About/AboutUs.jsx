@@ -1,5 +1,5 @@
 import React from "react";
-import { useRef } from "react";
+import { useRef,useEffect } from "react";
 import YIPstats from "./YIPStats";
 import "./styles/AboutDesktop.css";
 import "./styles/AboutMobile.css";
@@ -45,6 +45,7 @@ const yiponScreen = {
 function AboutUs() {
   const ref = useRef(null);
   const isInView = useInView(ref, { once: true });
+ 
   return (
     <section id="about-page">
     <div id="about" className="about-us-outer">
