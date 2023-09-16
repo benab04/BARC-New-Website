@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/BARC-New-Website/static/css/main.88520fac.css",
-    "main.js": "/BARC-New-Website/static/js/main.87334a96.js",
+    "main.css": "/BARC-New-Website/static/css/main.58d7a0a0.css",
+    "main.js": "/BARC-New-Website/static/js/main.28ef82a3.js",
     "static/media/BGV3.mp4": "/BARC-New-Website/static/media/BGV3.859acd2c847240ffdd78.mp4",
     "static/media/kgpdirectory.png": "/BARC-New-Website/static/media/kgpdirectory.dbb3dc2bb230630b6731.png",
     "static/media/bgimage.png": "/BARC-New-Website/static/media/bgimage.53f1ce1a544234b78d24.png",
@@ -46,11 +46,11 @@
     "static/media/wave6.svg": "/BARC-New-Website/static/media/wave6.e00a1178602f784b8a04.svg",
     "index.html": "/BARC-New-Website/index.html",
     "static/media/wave2.svg": "/BARC-New-Website/static/media/wave2.36806dc239ca2accfe96.svg",
-    "main.88520fac.css.map": "/BARC-New-Website/static/css/main.88520fac.css.map",
-    "main.87334a96.js.map": "/BARC-New-Website/static/js/main.87334a96.js.map"
+    "main.58d7a0a0.css.map": "/BARC-New-Website/static/css/main.58d7a0a0.css.map",
+    "main.28ef82a3.js.map": "/BARC-New-Website/static/js/main.28ef82a3.js.map"
   },
   "entrypoints": [
-    "static/css/main.88520fac.css",
-    "static/js/main.87334a96.js"
+    "static/css/main.58d7a0a0.css",
+    "static/js/main.28ef82a3.js"
   ]
 }
