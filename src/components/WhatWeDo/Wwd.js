@@ -17,7 +17,7 @@ function WWD() {
      style={{
           transform: isInView3 ? "none" : "translateY(+50px)",
           opacity: isInView3 ? 1 : 0,
-          transition: "all 2s cubic-bezier(0.17, 0.55, 0.55, 1) 0.2s"
+          transition: "all 1s cubic-bezier(0.17, 0.55, 0.55, 1) 0.4s"
         }} className='wwd-title'>WHAT WE DO</motion.h1>
       <div class="container mx-0 col-lg-3 col-md-2 col-xs-3 my-3 " id='con1'>
       

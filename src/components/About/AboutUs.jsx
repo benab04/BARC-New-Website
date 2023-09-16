@@ -5,6 +5,7 @@ import "./styles/AboutDesktop.css";
 import "./styles/AboutMobile.css";
 import { motion } from "framer-motion";
 import { useInView } from "framer-motion";
+import KUTE from "kute.js";
 const headVariants = {
   hidden: { opacity: 0, y: 100 },
   show: {
@@ -12,7 +13,7 @@ const headVariants = {
     y: 0,
   },
   transition: {
-    duration: 1.5,
+    duration: 1,
     ease: "easeInOut",
   },
 };
@@ -65,7 +66,7 @@ function AboutUs() {
            style={{
           transform: isInView ? "none" : "translateY(+50px)",
           opacity: isInView ? 1 : 0,
-          transition: "all 2s cubic-bezier(0.17, 0.55, 0.55, 1) 0.1s"
+          transition: "all 1s cubic-bezier(0.17, 0.55, 0.55, 1) 0.6s"
         }}>
             <div className="about-us">
               <motion.h1>

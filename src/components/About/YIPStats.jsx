@@ -81,7 +81,7 @@ function YIPstats() {
      style={{
           transform: isInView ? "none" : "translateY(+50px)",
           opacity: isInView ? 1 : 0,
-          transition: "all 2s cubic-bezier(0.17, 0.55, 0.55, 1) 0.2s"
+          transition: "all 1s cubic-bezier(0.17, 0.55, 0.55, 1) 0.3s"
         }}
     //  initial={{opacity:-1,
     //  y:80
@@ -99,7 +99,7 @@ function YIPstats() {
      style={{
           transform: isInView2 ? "none" : "translateY(+50px)",
           opacity: isInView2 ? 1 : 0,
-          transition: "all 2s cubic-bezier(0.17, 0.55, 0.55, 1) 0.2s"
+          transition: "all 1s cubic-bezier(0.17, 0.55, 0.55, 1) 0.4s"
         }}>
         <CardHeader className="yipnav d-flex justify-content-center align-items-center">
           <Nav

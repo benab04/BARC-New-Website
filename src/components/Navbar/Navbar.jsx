@@ -27,7 +27,6 @@ function Navbar(){
       }
     };
     const [header,changeHeader]=useState("header fixed-top ")
-    let nav = document.getElementById("navbar");
     window.onscroll = function () {
       // console.log(document.documentElement.scrollTop)
       if (document.documentElement.scrollTop > 20) {

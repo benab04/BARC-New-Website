@@ -46,7 +46,7 @@ function App() {
       const scrollY = window.scrollY;
       parallaxBg.style.transform = `translateY(-${scrollY * 0.36}px)`;
     });
-
+  
     return () => {
       // Clean up the event listener when the component unmounts
       window.removeEventListener('scroll', () => {});

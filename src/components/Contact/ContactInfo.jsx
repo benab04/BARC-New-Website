@@ -1,9 +1,14 @@
 import React from "react";
 import { motion } from "framer-motion";
 import { BiMap } from "react-icons/bi";
+import { useRef } from "react";
+import { useInView } from "framer-motion";
+
 function ContactInfo() {
+  const ref4=useRef(null);
+  const isInView4 = useInView(ref4, { once: true });
   return (
-    <div className="contact-info">
+    <div ref={ref4} className="contact-info">
       <p className="title-info">
         Where to find us
         <a
@@ -12,6 +17,11 @@ function ContactInfo() {
           rel="noreferrer"
         >
           <motion.i  className="fa-solid fa-location-dot" 
+          style={{
+          transform: isInView4 ? "none" : "translateY(-50px)",
+          opacity: isInView4 ? 1 : 0,
+          transition: "all 0.4s cubic-bezier(0.17, 0.55, 0.55, 1) 1.6s"
+        }}
           whileHover={{ scale: 1.3 }}
           
           ></motion.i>
@@ -31,7 +41,13 @@ function ContactInfo() {
         </div>
         <p className="title-info">Email Us</p>
         <div className="information">
-          <p>Email : barc@iitkgp.ac.in</p><button className="email-clamp"><a href="https://mail.google.com/mail/?view=cm&fs=1&to=barc@iitkgp.ac.in" target="_blank" rel="nonreferrer"><i className="fa fa-envelope"></i></a></button>
+          <p>Email : barc@iitkgp.ac.in</p><button 
+          style={{
+          transform: isInView4 ? "none" : "translateY(-50px)",
+          opacity: isInView4 ? 1 : 0,
+          transition: "all 1s cubic-bezier(0.17, 0.55, 0.55, 1) 2s"
+        }}
+          className="email-clamp"><a   href="https://mail.google.com/mail/?view=cm&fs=1&to=barc@iitkgp.ac.in" target="_blank" rel="nonreferrer"><i className="fa fa-envelope"></i></a></button>
         </div>
         <p className="title-info">Call Us</p>
         <p className="text">Aishwary Patel</p>
@@ -57,18 +73,29 @@ function ContactInfo() {
       <div className="social-media">
         <p>Connect with us :</p>
         <div className="social-icons">
-          <a
+          <motion.a
+           style={{
+          transform: isInView4 ? "none" : "translateY(+50px)",
+          opacity: isInView4 ? 1 : 0,
+          transition: "all 1s cubic-bezier(0.17, 0.55, 0.55, 1) 0.6s"
+        }}
             target="_blank"
             rel="noreferrer"
             href="https://www.instagram.com/barc.iitkgp/"
           >
             <motion.i
+            
               whileHover={{ scale: 1.3 }}
               className="fa fa-instagram"
               style={{ fontSize: "20px", color: "white" }}
             ></motion.i>
-          </a>
-          <a
+          </motion.a>
+          <motion.a
+           style={{
+          transform: isInView4 ? "none" : "translateY(+50px)",
+          opacity: isInView4 ? 1 : 0,
+          transition: "all 1s cubic-bezier(0.17, 0.55, 0.55, 1) 0.7s"
+        }}
             target="_blank"
             rel="noreferrer"
             href="https://www.facebook.com/barciitkgp"
@@ -78,8 +105,13 @@ function ContactInfo() {
               className="fa fa-facebook-square"
               style={{ fontSize: "20px", color: "white" }}
             ></motion.i>
-          </a>
-          <a
+          </motion.a>
+          <motion.a
+           style={{
+          transform: isInView4 ? "none" : "translateY(+50px)",
+          opacity: isInView4 ? 1 : 0,
+          transition: "all 1s cubic-bezier(0.17, 0.55, 0.55, 1) 0.8s"
+        }}
             target="_blank"
             rel="noreferrer"
             href="https://www.linkedin.com/company/brandingandrelationscell/"
@@ -89,8 +121,13 @@ function ContactInfo() {
               className="fa fa-linkedin-square"
               style={{ fontSize: "20px", color: "white" }}
             ></motion.i>
-          </a>
-          <a
+          </motion.a>
+          <motion.a
+           style={{
+          transform: isInView4 ? "none" : "translateY(+50px)",
+          opacity: isInView4 ? 1 : 0,
+          transition: "all 1s cubic-bezier(0.17, 0.55, 0.55, 1) 0.9s"
+        }}
             target="_blank"
             rel="noreferrer"
             href="https://www.youtube.com/@barciitkgp"
@@ -100,7 +137,7 @@ function ContactInfo() {
               className="fa fa-youtube-square"
               style={{ fontSize: "20px", color: "white" }}
             ></motion.i>
-          </a>
+          </motion.a>
         </div>
       </div>
     </div>
