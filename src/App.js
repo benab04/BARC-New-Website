@@ -6,7 +6,7 @@ import TeamPage from "./components/Pages/TeamPage/TeamPage";
 
 import { HashRouter } from 'react-router-dom';
 
-import {BrowserRouter, Route, Routes} from "react-router-dom";
+import { Route, Routes} from "react-router-dom";
 
 function App(){
   return (

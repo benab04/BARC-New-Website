@@ -1,4 +1,4 @@
-import { useState, useEffect,useRef } from 'react';
+import { useState,useRef } from 'react';
 import {motion,useInView} from "framer-motion";
 import './Wwd.css';
 import img2 from './thumbnails/YIP.png';
@@ -7,7 +7,6 @@ import img1 from './thumbnails/UGAD.png';
 import img4 from './thumbnails/kgpdirectory.png';
 
 function WWD() {
-  const [bgimg, setbgimg] = useState(img1)
   const ref3=useRef(null);
   const isInView3 = useInView(ref3, { once: true });
   return (

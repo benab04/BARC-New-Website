@@ -3,33 +3,11 @@ import "./PageNavbar.css"
 import {motion} from "framer-motion";
 import Img from "../../assets/images/barclogo.png";
 import { HashLink } from 'react-router-hash-link';
-// import Toggle from "./nav";
-// import "../../assets/js/main"
-import {BsList} from "react-icons/bs";
 import 'animate.css';
 function PageNavbar(){
 
-  const overlayVariants={
-    hidden: {
-      opacity: 0,
-      scale:1,
-    
-    },
-    show: {
-      opacity:1,
-      scale:1,
-      
-    },
-
-      transition: {
-        duration:3,       
-        ease:"easeInOut"
-      }
-    };
     const [header,changeHeader]=useState("header pageHead fixed-top ")
-    let nav = document.getElementById("navbar pagenav");
     window.onscroll = function () {
-      // console.log(document.documentElement.scrollTop)
       if (document.documentElement.scrollTop > 20) {
         
         changeHeader("header fixed-top sticky header-scrolled pageHead-scrolled")
@@ -80,8 +58,6 @@ function PageNavbar(){
     switchIcon("fa-solid fa-bars mobile-nav-toggle");
       }
     }
-    // const activePage=window.location;
-    // console.log(activePage);
     const scrollToTop = () => {
       window.scrollTo({ top: 0, behavior: "smooth" });
     };
@@ -89,15 +65,7 @@ function PageNavbar(){
       if(Nav==="navbar-mobile"){ mobNav()}
     }
     return (
-      <motion.div
-      
-      // variants={overlayVariants}
-      // initial={{scale:0}}
-      // animate={{scale:1}}
-      // transition={("transition", { delay: 5 })}
-      >
-      
-
+      <motion.div >
         <header id="header" className={header}>
     <div className="container-fluid container-xl d-flex align-items-center justify-content-between">
     <HashLink onClick={scrollToTop} className="logo d-flex align-items-center "  to={"/home-page"}><img className="logo-img" style={{scale:"1.1"}} src={Img}  alt="" />
@@ -108,13 +76,10 @@ function PageNavbar(){
         <ul>
           
           <li onClick={closeNav}><a onClick={scrollToTop} className="getstarted" href="#/home-page">Home</a></li>
-          {/* <li><a className="getstarted " href="../YIP Coming Soon/src/index2.html">Visit YIP</a></li> */}
         </ul>
         </div>
         <button style={{height:"40px",width:"40px",backgroundColor:"transparent",border:"none"}} onClick={mobNav} className={Icon}></button>
-        {/* <i className="bi bi-list mobile-nav-toggle "><BsList  /></i> */}
       </nav>
-
     </div>
   </header>
   </motion.div>

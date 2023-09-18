@@ -1,6 +1,5 @@
 import React from "react";
 import { motion } from "framer-motion";
-import { BiMap } from "react-icons/bi";
 import { useRef } from "react";
 import { useInView } from "framer-motion";
 
@@ -47,7 +46,7 @@ function ContactInfo() {
           opacity: isInView4 ? 1 : 0,
           transition: "all 1s cubic-bezier(0.17, 0.55, 0.55, 1) 2s"
         }}
-          className="email-clamp"><a   href="https://mail.google.com/mail/?view=cm&fs=1&to=barc@iitkgp.ac.in" target="_blank" rel="nonreferrer"><i className="fa fa-envelope"></i></a></button>
+          className="email-clamp"><a  href="https://mail.google.com/mail/?view=cm&fs=1&to=barc@iitkgp.ac.in" target="_blank" rel="noreferrer"><i className="fa fa-envelope"></i></a></button>
         </div>
         <p className="title-info">Call Us</p>
         <p className="text">Aishwary Patel</p>

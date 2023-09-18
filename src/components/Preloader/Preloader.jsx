@@ -1,4 +1,4 @@
-import React, { Component, useState } from "react";
+import React, { Component } from "react";
 import "./Preloader.css";
 import "./load.js";
 import "../Hero/hero"

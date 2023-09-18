@@ -71,7 +71,7 @@ function App() {
      transition="transition"><div className='wrap-title'>
       
       <div >
-        <img className='title-image' src={Img}/></div>
+        <img className='title-image' src={Img} alt="BARC"/></div>
     
       <div><h1>BRANDING AND RELATIONS CELL, IIT KHARAGPUR</h1></div>
       </div>

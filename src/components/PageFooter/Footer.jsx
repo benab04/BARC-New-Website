@@ -68,13 +68,12 @@ function Footer(){
         <div class="col-lg-2 col-6 footer-links">
           <h4>Useful Links</h4>
           <ul>
-          <li><a><HashLink className="nav-link scrollto active home-page" style={{width:"auto"}}  to={"/home-page#home-page"}>Home</HashLink></a></li>
-          <li><a><HashLink className="nav-link scrollto about-page" to={"/home-page#about-page"}>About</HashLink></a></li>
-          <li><a><HashLink className="nav-link scrollto what-we-do" to={"/home-page#what-we-do"}>What We Do</HashLink></a></li>
+          <li><a href=""><HashLink className="nav-link scrollto active home-page" style={{width:"auto"}}  to={"/home-page#home-page"}>Home</HashLink></a></li>
+          <li><a href=""><HashLink className="nav-link scrollto about-page" to={"/home-page#about-page"}>About</HashLink></a></li>
+          <li><a href=""><HashLink className="nav-link scrollto what-we-do" to={"/home-page#what-we-do"}>What We Do</HashLink></a></li>
           <li><a onClick={scrollToTop} className="nav-link scrollto team"  href="#/team" >Team</a></li>
-          {/* <li><HashLink className="nav-link scrollto testimonials-page" to="#testimonials-page" >Testimonials</HashLink></li> */}
-          <li><a><HashLink  className="nav-link scrollto gallery" to={"/home-page#gallery"}>Gallery</HashLink></a></li>
-          <li><a><HashLink className="nav-link scrollto contact-us-page" to={"/home-page#contact-us-page"}>Contact</HashLink></a></li>
+          <li><a href=""><HashLink  className="nav-link scrollto gallery" to={"/home-page#gallery"}>Gallery</HashLink></a></li>
+          <li><a href=""><HashLink className="nav-link scrollto contact-us-page" to={"/home-page#contact-us-page"}>Contact</HashLink></a></li>
           </ul>
         </div>
 

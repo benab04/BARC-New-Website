@@ -1,5 +1,4 @@
 import React, { useEffect, useRef } from "react";
-import ReactDOM from "react-dom";
 import ImageGallery from "react-image-gallery";
 
 import 'react-image-gallery/styles/css/image-gallery.css';
@@ -30,10 +29,6 @@ import Img22 from './2022/Img22.jpg';
 import Img23 from './2022/Img23.jpg';
 import Img24 from './2022/Img24.jpg';
 
-
-
-// class MyComponent extends React.Component {
-//   render() {
   const images = [
     {
       original: Img1,

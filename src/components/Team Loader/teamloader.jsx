@@ -1,14 +1,10 @@
-import React, { Component, useState } from "react";
+import React, { Component } from "react";
 import "./teamloader.css";
-// import "./load.js";
-// import "../Hero/hero"
 import "../Team/Teams";
 class teamloader extends Component {
   
   preloader() {
     let video = document.getElementById('test-img');
-    // const preloader = document.querySelector('.preloader');
-// const loadingPercentage = document.querySelector('.loading-percentage');
 
 let preload = document.querySelector(".preloader");
 

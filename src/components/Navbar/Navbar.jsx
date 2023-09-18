@@ -1,34 +1,13 @@
 import React, { useState } from "react";
 import "./Navbar.css"
-import {motion, transform} from "framer-motion";
+import {motion} from "framer-motion";
 import Img from "../../assets/images/barclogo.png";
 import { HashLink } from 'react-router-hash-link';
-// import Toggle from "./nav";
-// import "../../assets/js/main"
-import {BsList} from "react-icons/bs";
 import 'animate.css';
 function Navbar(){
 
-  const overlayVariants={
-    hidden: {
-      opacity: 0,
-      scale:1,
-    
-    },
-    show: {
-      opacity:1,
-      scale:1,
-      
-    },
-
-      transition: {
-        duration:3,       
-        ease:"easeInOut"
-      }
-    };
     const [header,changeHeader]=useState("header fixed-top ")
     window.onscroll = function () {
-      // console.log(document.documentElement.scrollTop)
       if (document.documentElement.scrollTop > 20) {
         
         changeHeader("header fixed-top sticky header-scrolled")
@@ -84,53 +63,31 @@ function Navbar(){
     function closeNav(){
       if(Nav==="navbar-mobile"){ mobNav()}
     }
-    // const activePage=window.location;
-    // console.log(activePage);
+   
     const scrollToTop = () => {
       window.scrollTo({ top: 0, behavior: "smooth" });
     };
   
     return (
-      <motion.div
-      
-      // variants={overlayVariants}
-      // initial={{scale:0}}
-      // animate={{scale:1}}
-      // transition={("transition", { delay: 5 })}
-      >
-      
-
+      <motion.div >
         <header id="header" className={header}>
     <div className="container-fluid container-xl d-flex align-items-center justify-content-between">
     <HashLink className="logo d-flex align-items-center "  to={"#home-page"}><img style={{scale:"1.1"}} className="logo-img" src={Img} alt="" />
         <span></span></HashLink>
-     
       <nav 
-      
        id="navbar" className={Nav}>
       <div id="scrollspy1">
-        <ul
-
-      //   initial={Nav==="navbar-mobile"?{}:{}}
-      // animate={Nav==="navbar-mobile"?{x: ["100%", "0%"]}:{x:0}}
-      // transition={{  times: [0.01, 0.4] }}
-        
-        >
+        <ul >
           <li onClick={closeNav}><HashLink  className="nav-link scrollto active home-page" style={{width:"auto"}} to={"#home-page"}>Home</HashLink></li>
           <li onClick={closeNav}><HashLink className="nav-link scrollto about-page" to={"#about-page"}>About</HashLink></li>
           <li onClick={closeNav}><HashLink className="nav-link scrollto what-we-do" to="#what-we-do">What We Do</HashLink></li>
           <li onClick={closeNav}><a onClick={scrollToTop} className="nav-link scrollto team"  href="#/team" >Team</a></li>
-          {/* <li><HashLink className="nav-link scrollto testimonials-page" to="#testimonials-page" >Testimonials</HashLink></li> */}
           <li onClick={closeNav}><HashLink  className="nav-link scrollto gallery" to="#gallery">Gallery</HashLink></li>
           <li onClick={closeNav}><HashLink className="nav-link scrollto contact-us-page" to="#contact-us-page">Contact</HashLink></li>
-          {/* <li><a className="getstarted " target="_blank" href="https://yip.iitkgp.ac.in/">Visit YIP</a></li> */}
-          {/* <li><a className="getstarted " href="../YIP Coming Soon/src/index2.html">Visit YIP</a></li> */}
         </ul>
         </div>
         <button style={{height:"40px",width:"40px",backgroundColor:"transparent",border:"none"}} onClick={mobNav} className={Icon}></button>
-        {/* <i className="bi bi-list mobile-nav-toggle "><BsList  /></i> */}
       </nav>
-
     </div>
   </header>
   </motion.div>
