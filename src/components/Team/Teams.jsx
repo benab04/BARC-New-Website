@@ -1,6 +1,4 @@
 import "./Teams.css";
-//import navbar
-//import footer
 import img1 from './DeepakSomani.jpg';
 import aish from './Heads/aish.jpg'
 import bhumi from './Heads/bhumi.jpg'
@@ -12,15 +10,11 @@ import shrnsh from './Heads/sharansh.jpg'
 import ajay from './Heads/ajay.png'
 
 import {motion} from "framer-motion";
-import { useState } from "react";
-
-
 
 function Teams() {
   
   const gensecdata =[
     {
-      // src: require("assets/img/denys.jpg"),
       img: aish,
       name: "Aishwary Patel",
       pos: "General Secretary",
@@ -31,7 +25,6 @@ function Teams() {
       mail:"aishwarypatel2004@gmail.com"
     },
     {
-      // src: require("assets/img/denys.jpg"),
       img: bhumi,
       name: "Bhumi Tayal",
       pos: "General Secretary",
@@ -46,7 +39,6 @@ function Teams() {
     
     
     {
-      // src: require("assets/img/denys.jpg"),
       name: "Aadit Shah",
       img: aadit,
       pos: "Senior Coordinator",

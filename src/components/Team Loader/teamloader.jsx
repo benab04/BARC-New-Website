@@ -16,7 +16,6 @@ setTimeout(() => {
 }, 2000);
     video.addEventListener('load', () => {
       // Video is loaded
-      
       setTimeout(() => {
         preload.style.opacity = "0";
         setTimeout(() => {
@@ -24,13 +23,7 @@ setTimeout(() => {
         }, 1000);
       }, 1000);
       // preloader.style.display = 'none'; // Hide the preloader
-      
-    });
-    
-   
-   
-   
-    
+    });    
 }
 
   componentDidMount() {
