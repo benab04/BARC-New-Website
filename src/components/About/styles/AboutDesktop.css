@@ -3,6 +3,7 @@
     width: 0px;
   } */
   #about-page{
+    background-color:#08707f;
     background-image: url("../wave6.svg");
     background-position: center;
     background-size: cover;
