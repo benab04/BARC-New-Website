@@ -1,20 +1,14 @@
-
-/* ::-webkit-scrollbar {
-    width: 0px;
-  } */
   #about-page{
     background-color:#08707f;
     background-image: url("../wave6.svg");
     background-position: center;
     background-size: cover;
-    /* z-index:999; */
   }
   .yipnav .active {
     filter:drop-shadow(3px 4px 4px #0e0e0e);  
   }
   @media screen and (min-width: 1025px) {
     .about-us-outer{
-        /* background-color: #08707f; */
         max-height: 100vh;
     }
     .about-grid {
@@ -24,25 +18,17 @@
       align-items: center;
     }
     .about-us {
-      /* width: 100vw; */
       text-align: center;
-      /* background-color: #00000057; */
-      /* padding: 5rem; */
-      /* background-color: none; */
     }
     .about-us h1 {
-      /* color: #e8da6d; */
       font-size: 3.8rem;
       font-weight: bold;
       color: lavender;
-      /* padding-top: 5vh; */
     }
     .about-us-text {
-      /* height: 20vh; */
       text-align: center;
       color: #262626;
       font-weight: 500;
-      /* position: relative; */
       display: flex;
       justify-content: center;
       align-items: center;
@@ -57,7 +43,6 @@
   
     .about-us-container{
       max-width: 1240px;
-      /* background-color: #08707f; */
       margin-bottom: 2rem;
       display: flex;
       flex-direction: column;
@@ -82,19 +67,15 @@
       flex-direction: column;
       justify-content: center;
       align-items: center;
-      /* background-color: #08707f; */
     }
     
     .yipnav {
-      /* background-color: #f2f2f2; */
-      /* background-color: white; */
       border-color: none;
       border: hidden;
       justify-content: center;
       align-items: center;
       border-radius: 30px;
     }
-    /* Add more buttons as yip-button4 and so on */
     .yip-button {
       border: hidden !important;
       background-color: lightblue !important;
@@ -115,13 +96,9 @@
       font-size: 3rem;
       font-weight: 800;
       padding: 1.2rem 0;
-      /* background-color: white; */
-      /* color: #08707f; */
       color: lavender;
-      /* background-color:none; */
     }
     .yipitems {
-      /* width:50vw; */
       display: grid;
       grid-template-columns: repeat(3, 18vw);
       justify-content: center;
@@ -132,26 +109,19 @@
     }
     .h1-seo {
       font-size: 3rem;
-      /* font-size: min(4vw, 3rem); */
       column-gap: 0;
       font-weight: 900;
       color: lavender;
-      /* color: rgb(222, 233, 228); */
     }
     .yipcardbody {
       padding-top: 3vw;
-      /* background-color: white; */
-      /* border-radius: 30px; */
     }
     .yipcard {
-      /* box-shadow: 0 0 5px rgba(129, 124, 124, 0.2); */
       background-color: transparent;
       backdrop-filter: blur(0px);
-      /* background-color: rgba(107, 107, 107, 0.359); */
       border-radius: 5px;
     }
     .count-card{
-        /* background-color: pink; */
         padding:1rem;
     }
     
@@ -160,13 +130,8 @@
     }
     .count-title {
       color: #0cacc4;
-      
-      /* text-decoration: none; */
-      /* font-size: 0; */
       font-size: max(1.3vw, 1rem);
       font-weight: 100;
-  
-      /* padding-bottom: 4vw; */
     }
   }
   

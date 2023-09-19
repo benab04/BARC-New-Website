@@ -4,8 +4,6 @@ import Img from "../../assets/images/Signature.jpg";
 import './hero.css';
 import { HashLink } from "react-router-hash-link";
 import React, { useEffect } from 'react'; 
-// import IndexNavbar from "./components/Navbar/IndexNavbar";
-// import Navbar from "./components/Navbar/Navbar"
 function App() {
   const titleVariants={
     hidden: {

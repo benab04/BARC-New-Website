@@ -162,8 +162,6 @@ function Gallery(){
         showNav={true}
         showFullscreenButton={true}
         thumbnailPosition={"bottom"}
-        
-        // useTranslate3D={false}
         autoPlay={true} 
       />
       </div>
@@ -171,6 +169,4 @@ function Gallery(){
       </section>
     );
 }
-//   }
-// }
 export default Gallery;

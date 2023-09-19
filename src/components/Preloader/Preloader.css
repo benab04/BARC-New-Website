@@ -1,48 +1,13 @@
-.loading-percentage{
-  /* background-color: green; */
-  /* margin-left:0 !important;
-  margin-right:0 !important; */
-  /* height:10px; */
-  z-index:9999999;
-  font-size: 2rem;
-  color:grey;
-}
-/* .preloader-wrap {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-direction: column;
-    position: fixed; */
-    /* left: 0px; */
-    /* top: 0px; */
-    /* width: 100%;
-    height: 100%;
-    z-index: 999999; */
-    /* background-color: rgb(35, 172, 74); */
-    /* background-color: black; */
-    /* filter: blur(8px); */
-  /* -webkit-filter: blur(8px); */
-    /* background-position: center center;
-    background-repeat: no-repeat;
-    opacity: 1;
-    transition: 1s opacity;
-  } */
 .preloader {
   display: flex;
   align-items: center;
   justify-content: center;
   flex-direction: row;
   position: fixed;
-    /* position: fixed; */
-    /* left: 0px; */
-    /* top: 0px; */
     width: 100%;
     height: 100%;
     z-index: 9999999;
-    /* background-color: rgb(35, 172, 74); */
     background-color: black;
-    /* filter: blur(8px); */
-  /* -webkit-filter: blur(8px); */
     background-position: center center;
     background-repeat: no-repeat;
     opacity: 1;

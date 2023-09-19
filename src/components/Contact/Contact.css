@@ -1,20 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800&display=swap");
 
-/* * {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  overflow-x: hidden;
-} */
-
-/* body,
-input,
-textarea {
-  
-}
-::-webkit-scrollbar {
-  width: 0;
-} */
 .contact-page {
   font-family: "Poppins", sans-serif;
   position: relative;
@@ -22,7 +7,6 @@ textarea {
   min-height: 100vh;
   padding: 4.4rem;
   background-image: url(waves7.svg);
-  /* background-image: url("https://img.freepik.com/premium-photo/website-internet-contact-us-page-concept-with-phone-chat-email-icons-symbol-telephone-mail-mobile-phone-website-page-contact-us-wide-web-banner-copy-space-blue-background_256259-2730.jpg"); */
   background-position: center;
   background-size: cover;
   background-color: lightblue;
@@ -38,14 +22,11 @@ textarea {
   width: 100%;
   max-width: 80vw;
   box-shadow: 0 15px 25px rgba(129, 124, 124, 0.2);
-  /* backdrop-filter: blur(100px); */
-  /* From https://css.glass */
 
   background-color: rgba(255, 255, 255, 0.12);
   background-color: none;
   border-radius: 10px;
   box-shadow: 0 0 20px 1px rgba(0, 0, 0, 0.1);
-  /* z-index: 1000; */
   overflow: hidden;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
@@ -65,7 +46,6 @@ border: 0px solid rgba(8, 112, 127, 0.3);
 
 form {
   padding: 2.3rem 2.2rem;
-  /* z-index: 10; */
   overflow-x: hidden;
   position: relative;
   z-index: 3;
@@ -131,7 +111,6 @@ textarea.input {
   font-size: 0.9rem;
   font-weight: 200;
   pointer-events: none;
-  /* z-index: 1000; */
   transition: 0.5s;
 }
 .input-container :focus {
@@ -170,7 +149,6 @@ textarea.input {
 .contact-info {
   padding: 2.3rem 2.2rem;
   position: relative;
-   /* From https://css.glass */
 background: rgba(173, 216, 230, 0.492);
 border-radius: 0px;
 box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);

@@ -1,14 +1,3 @@
-/**
-* Template Name: FlexStart
-* Updated: Jul 27 2023 with Bootstrap v5.3.1
-* Template URL: https://bootstrapmade.com/flexstart-bootstrap-startup-template/
-* Author: BootstrapMade.com
-* License: https://bootstrapmade.com/license/
-*/
-
-/*--------------------------------------------------------------
-# General
---------------------------------------------------------------*/
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Raleway:wght@500&display=swap');
 html {
   scroll-behavior: smooth;
@@ -56,44 +45,26 @@ h6 {
   border-radius:50px;
 }
 .header.header-scrolled {
-  /* background:lavender; */
   background: rgba(255, 255, 255, 0.54);
-  /* border-radius: 30px; */
   box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
   backdrop-filter: blur(11.3px);
   -webkit-backdrop-filter: blur(11.3px);
   border: 1px solid rgba(255, 255, 255, 0.39);
   transition: background-color 0.4s ease;
-  /* backdrop-filter: blur(30px); */
-  /* background: lavender; */
   padding: 15px 0;
-  /* box-shadow: 0px 2px 20px rgba(1, 41, 112, 0.1); */
 }
 @media screen and (max-width:1200px) {
   .header.header-scrolled {
-    /* background:lavender; */
     background: rgba(255, 255, 255, 0.54);
     border-radius: 30px;
     box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
     backdrop-filter:unset;
     -webkit-backdrop-filter: unset;
     border: 1px solid rgba(255, 255, 255, 0.39);
-  
-    /* backdrop-filter: blur(30px); */
-    /* background: lavender; */
     padding: 15px 0;
-    /* box-shadow: 0px 2px 20px rgba(1, 41, 112, 0.1); */
   }
 }
 
-/* .header-scrolled {
- 
-  opacity:100%;
-  padding: 20px 0;
-}
-.header-scrolled:hover{
-  opacity:100%;
-} */
 .header .logo {
   line-height: 1;
 }
@@ -106,7 +77,6 @@ h6 {
 
 .header .logo span {
   font-size: 20px;
-  /* text-transform: capitalize; */
   font-weight: 700;
   letter-spacing: 0px;
   color: #012970;
@@ -270,7 +240,6 @@ h6 {
   
 }
 .fa-xmark{
-  /* padding:20px; */
   width:20px;
   color:#fff;
 }
@@ -313,26 +282,3 @@ h6 {
   margin:5px;
   
 }
-
-
-/* .navbar-mobile .dropdown ul li {
-  min-width: 200px;
-}
-
-.navbar-mobile .dropdown ul a {
-  padding: 10px 20px;
-}
-
-.navbar-mobile .dropdown ul a i {
-  font-size: 12px;
-}
-
-.navbar-mobile .dropdown ul a:hover,
-.navbar-mobile .dropdown ul .active:hover,
-.navbar-mobile .dropdown ul li:hover>a {
-  color: #4154f1;
-}
-
-.navbar-mobile .dropdown>.dropdown-active {
-  display: block;
-} */

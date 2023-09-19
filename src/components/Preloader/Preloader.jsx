@@ -25,24 +25,9 @@ setTimeout(() => {
           preload.style.display = "none";
         }, 1000);
       }, 1500);
-      // preloader.style.display = 'none'; // Hide the preloader
       
     });
     
-   
-   
-   
-    video.addEventListener('progress', () => {
-
-      video.onloadedmetadata = function() {
-     
-      const buffered = video.buffered.length > 0 ? video.buffered.end(0) : 0;
-        const total = this.duration;
-      
-        const loadProgress = buffered / total;
-      
-    };
-      });
 }
 
   componentDidMount() {

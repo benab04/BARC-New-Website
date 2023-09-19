@@ -95,8 +95,6 @@ function Footer(){
           Office of Alumni Affairs & Branding<br />
           Indian Institute of Technology, Kharagpur Pin-721302
           <br /> West Bengal, India<br /><br />
-            {/* <strong>Phone:</strong> +1 5589 55488 55<br />
-            <strong>Email:</strong> info@example.com<br /> */}
           </p>
 
         </div>

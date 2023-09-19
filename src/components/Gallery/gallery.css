@@ -1,18 +1,12 @@
 .gallery-page{
-    /* display: flex;
-    flex-direction: column; */
     align-content: center;
     justify-content: center;
     padding:10px 0 0 0;
-    
     width:100vw;
-    /* height:100vh; */
    padding-bottom: 0;
    background-color: #08707f;
    background-image: url("./SVG/wave6.svg") ;
-
    background-position: center  ;
-   
    background-size: cover;
 }
 #gallery{
@@ -29,12 +23,7 @@
 }s
 .gallery-slides{
     margin-top: -20px;
-  
- 
 }
-
-  
-  /* Adjust the size of the images within the gallery */
   .image-gallery-image {
     scale:0.85;
   }

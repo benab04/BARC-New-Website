@@ -73,7 +73,7 @@ function Navbar(){
         <header id="header" className={header}>
     <div className="container-fluid container-xl d-flex align-items-center justify-content-between">
     <HashLink className="logo d-flex align-items-center "  to={"#home-page"}><img style={{scale:"1.1"}} className="logo-img" src={Img} alt="" />
-        <span></span></HashLink>
+       </HashLink>
       <nav 
        id="navbar" className={Nav}>
       <div id="scrollspy1">
