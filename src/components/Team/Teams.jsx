@@ -9,6 +9,9 @@ import abhi from './Heads/abhi.jpeg'
 import shrnsh from './Heads/sharansh.jpg'
 import ajay from './Heads/ajay.png'
 
+import dummy from "./SM/dummy.jpg"
+
+
 import {motion} from "framer-motion";
 
 function Teams() {
@@ -105,205 +108,206 @@ function Teams() {
   const studData = [
     {
         name: "Akshat Sharma",
-        img: "./SM/dummy.jpg",
+        img: dummy,
         pos: "Student Member"
     },
     {
         name: "Akshil Jain",
-        img: "path/to/akshil_jain_img.jpg",
+        img: dummy,
         pos: "Student Member"
     },
     {
         name: "Amogh Ubhalkar",
-        img: "path/to/amogh_ubhalkar_img.jpg",
+        img: dummy,
         pos: "Student Member"
     },
     {
         name: "Aniket Thakare",
-        img: "path/to/aniket_thakare_img.jpg",
+        img: dummy,
         pos: "Student Member"
     },
     {
         name: "Ansh Murarka",
-        img: "path/to/ansh_murarka_img.jpg",
+        img: dummy,
         pos: "Student Member"
     },
     {
         name: "Anup Kumar",
-        img: "path/to/anup_kumar_img.jpg",
+        img: dummy,
         pos: "Student Member"
     },
     {
         name: "Anushika Srivastava",
-        img: "path/to/anushika_srivastava_img.jpg",
+        img: dummy,
         pos: "Student Member"
     },
     {
         name: "Anvesh Rajguru",
-        img: "path/to/anvesh_rajguru_img.jpg",
+        img: dummy,
         pos: "Student Member"
     },
     {
         name: "Aryal Katkar",
-        img: "path/to/aryal_katkar_img.jpg",
+        img: dummy,
         pos: "Student Member"
     },
     {
         name: "Asmit Srivastava",
-        img: "path/to/asmit_srivastava_img.jpg",
+        img: dummy,
         pos: "Student Member"
     },
     {
         name: "Ben Abraham Biju",
-        img: "path/to/ben_abraham_biju_img.jpg",
+        img: dummy,
         pos: "Student Member"
     },
     {
         name: "Chavi Agarwal",
-        img: "path/to/chavi_agarwal_img.jpg",
+        img: dummy,
         pos: "Student Member"
     },
     {
         name: "Devika K V",
-        img: "path/to/devika_kv_img.jpg",
+        img: dummy,
         pos: "Student Member"
     },
     {
         name: "Dhruv Rai",
-        img: "path/to/dhruv_rai_img.jpg",
+        img: dummy,
         pos: "Student Member"
     },
     {
         name: "Harshdeep Mili",
-        img: "path/to/harshdeep_mili_img.jpg",
+        img: dummy,
         pos: "Student Member"
     },
     {
         name: "Jatain Kumar",
-        img: "path/to/jatain_kumar_img.jpg",
+        img: dummy,
         pos: "Student Member"
     },
     {
         name: "Gnaneswar Karakavalasa",
-        img: "path/to/gnaneswar_karakavalasa_img.jpg",
+        img: dummy,
         pos: "Student Member"
     },
     {
         name: "Konduri Jeevan Varma",
-        img: "path/to/konduri_jeevan_varma_img.jpg",
+        img: dummy,
         pos: "Student Member"
     },
     {
         name: "Manash Shit",
-        img: "path/to/manash_shit_img.jpg",
+        img: dummy,
         pos: "Student Member"
     },
     {
         name: "Mohit Pant",
-        img: "path/to/mohit_pant_img.jpg",
+        img: dummy,
         pos: "Student Member"
     },
     {
         name: "Nikhil Yadav",
-        img: "path/to/nikhil_yadav_img.jpg",
+        img: dummy,
         pos: "Student Member"
     },
     {
         name: "Pranay Anil Darode",
-        img: "path/to/pranay_anil_darode_img.jpg",
+        img: dummy,
         pos: "Student Member"
     },
     {
         name: "Priyadarshi Shaket",
-        img: "path/to/priyadarshi_shaket_img.jpg",
+        img: dummy,
         pos: "Student Member"
     },
     {
         name: "Raj Aryan",
-        img: "path/to/raj_aryan_img.jpg",
+        img: dummy,
         pos: "Student Member"
     },
     {
         name: "Ranjeeta Mashal",
-        img: "path/to/ranjeeta_mashal_img.jpg",
+        img: dummy,
         pos: "Student Member"
     },
     {
         name: "Rathlavath Omprakash",
-        img: "path/to/rathlavath_omprakash_img.jpg",
+        img: dummy,
         pos: "Student Member"
     },
     {
         name: "S Praneeth Kumar",
-        img: "path/to/s_praneeth_kumar_img.jpg",
+        img: dummy,
         pos: "Student Member"
     },
     {
         name: "Sai Vishwas Aluvala",
-        img: "path/to/sai_vishwas_aluvala_img.jpg",
+        img: dummy,
         pos: "Student Member"
     },
     {
         name: "Satyam Jayswal",
-        img: "path/to/satyam_jayswal_img.jpg",
+        img: dummy,
         pos: "Student Member"
     },
     {
         name: "Shubham Pingale",
-        img: "path/to/shubham_pingale_img.jpg",
+        img: dummy,
         pos: "Student Member"
     },
     {
         name: "Mohite Swara Nandkishor",
-        img: "path/to/mohite_swara_nandkishor_img.jpg",
+        img: dummy,
         pos: "Student Member"
     },
     {
         name: "B. Uma Chandra Shekar Naik",
-        img: "path/to/uma_chandrashekhar_naik_img.jpg",
+        img: dummy,
         pos: "Student Member"
     },
     {
         name: "Vaibhav Chakole",
-        img: "path/to/vaibhav_chakole_img.jpg",
+        img: dummy,
         pos: "Student Member"
     },
     {
         name: "Snehal Tengse",
-        img: "path/to/snehal_tengse_img.jpg",
+        img: dummy,
         pos: "Student Member"
     },
     {
         name: "Ujjwal Kumar",
-        img: "path/to/ujjwal_kumar_img.jpg",
+        img: dummy,
         pos: "Student Member"
     },
     {
         name: "Raghav Kishore",
-        img: "path/to/raghav_kishore_img.jpg",
+        img: dummy,
         pos: "Student Member"
     },
     {
         name: "Ananya Sikdar",
-        img: "path/to/ananya_sikdar_img.jpg",
+        img: dummy,
         pos: "Student Member"
     },
     {
         name: "Pragya Bhootra",
-        img: "path/to/pragya_bhootra_img.jpg",
+        img: dummy,
         pos: "Student Member"
     },
     {
         name: "Pradnya Ukey",
-        img: "path/to/pradnya_ukey_img.jpg",
+        img: dummy,
         pos: "Student Member"
     },
     {
         name: "Madipelli Sreetham",
-        img: "path/to/madipelli_sreetham_img.jpg",
+        img: dummy,
         pos: "Student Member"
     }
 ];
+
   
   return (
     <>
