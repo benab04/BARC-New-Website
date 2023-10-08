@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/BARC-New-Website/static/css/main.bb0d4766.css",
-    "main.js": "/BARC-New-Website/static/js/main.21774a7e.js",
+    "main.js": "/BARC-New-Website/static/js/main.904fc0e1.js",
     "static/media/BGV3.mp4": "/BARC-New-Website/static/media/BGV3.859acd2c847240ffdd78.mp4",
     "static/media/Anvesh.png": "/BARC-New-Website/static/media/Anvesh.e0fce396a0d42606624b.png",
     "static/media/Ranjeeta.jpg": "/BARC-New-Website/static/media/Ranjeeta.df8c8e327e000d0169b7.jpg",
@@ -9,6 +9,7 @@
     "static/media/Shubham.jpg": "/BARC-New-Website/static/media/Shubham.dd12a96379a8570956ab.jpg",
     "static/media/Asmit.jpg": "/BARC-New-Website/static/media/Asmit.3f2a38a9c2ec98df3f3d.jpg",
     "static/media/Sai.jpg": "/BARC-New-Website/static/media/Sai.ec6fcd2d4dca7ef62a73.jpg",
+    "static/media/Praneeth.jpg": "/BARC-New-Website/static/media/Praneeth.b547e7a510aa73b80e52.jpg",
     "static/media/Jeevan.jpg": "/BARC-New-Website/static/media/Jeevan.bee8d435a847bb7ce2f6.jpg",
     "static/media/Akshat.jpg": "/BARC-New-Website/static/media/Akshat.d9dfdc33a79de8069199.jpg",
     "static/media/Jatain.jpg": "/BARC-New-Website/static/media/Jatain.7d8e6092fdf2f8efa0af.jpg",
@@ -71,10 +72,10 @@
     "static/media/waves7.svg": "/BARC-New-Website/static/media/waves7.49ada0097cf68c2884b4.svg",
     "index.html": "/BARC-New-Website/index.html",
     "main.bb0d4766.css.map": "/BARC-New-Website/static/css/main.bb0d4766.css.map",
-    "main.21774a7e.js.map": "/BARC-New-Website/static/js/main.21774a7e.js.map"
+    "main.904fc0e1.js.map": "/BARC-New-Website/static/js/main.904fc0e1.js.map"
   },
   "entrypoints": [
     "static/css/main.bb0d4766.css",
-    "static/js/main.21774a7e.js"
+    "static/js/main.904fc0e1.js"
   ]
 }
