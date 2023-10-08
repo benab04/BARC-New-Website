@@ -25,7 +25,7 @@ import Swara from "./SM/Swara.jpg"
 import Uma from "./SM/Uma.jpg"
 import Vaibhav from "./SM/Devika.jpg"
 import Ujjwal from "./SM/Ujjwal.jpg"
-// import Praneeth from "./SM/Praneeth.jpg"
+import Praneeth from "./SM/Praneeth.jpg"
 
 const studData = [
     {
@@ -160,7 +160,7 @@ const studData = [
     },
     {
         name: "S Praneeth Kumar",
-        img: dummy,
+        img: Praneeth,
         pos: "Student Member"
     },
     {
