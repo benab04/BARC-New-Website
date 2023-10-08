@@ -104,150 +104,206 @@ function Teams() {
 
   const studData = [
     {
-      img: img1,
-      name: "Aadit Shah",
-      pos: "Student Member",
-      fb: "https://www.facebook.com/aadit.shah.94?mibextid=LQQJ4d",
-      linkedin: "https://www.linkedin.com/in/aadit-shah-6b291022a",
-      contact: "9819250603",
-      mail:"shahaadit03@gmail.com"
+        name: "Akshat Sharma",
+        img: "./SM/dummy.jpg",
+        pos: "Student Member"
     },
     {
-      img:img1,
-      name: "Abhirup Pal",
-      pos: "Student Member",
-      fb: "https://www.facebook.com/profile.php?id=100075401053606",
-      linkedin: "https://www.linkedin.com/in/abhirup-pal-bab956224/",
-      contact: "9875303263",
-      mail:"abhiruppal2804@gmail.com"
+        name: "Akshil Jain",
+        img: "path/to/akshil_jain_img.jpg",
+        pos: "Student Member"
     },
     {
-      img: img1,
-      name: "Abhishek Tiwari",
-      pos: "Student Member",
-      fb: "https://www.facebook.com/profile.php?id=100036010306556&mibextid=ZbWKwL",
-      linkedin: "https://www.linkedin.com/in/abhishek-tiwari-5608b21a3",
-      contact: "7489808207",
-      mail:"Abhishekpk120@gmail.com"
+        name: "Amogh Ubhalkar",
+        img: "path/to/amogh_ubhalkar_img.jpg",
+        pos: "Student Member"
     },
     {
-      img: img1,
-      name: "Aditya Sharma ",
-      pos: "Student Member",
-      fb: "https://www.facebook.com/profile.php?id=100002888868638&mibextid=ZbWKwL",
-      linkedin: "https://www.linkedin.com/in/aditya-sharma-356671233",
-      contact: "7014493349",
-      mail:"adityasharmakn@gmail.com"
+        name: "Aniket Thakare",
+        img: "path/to/aniket_thakare_img.jpg",
+        pos: "Student Member"
     },
     {
-      img: img1,
-      name: "Aishwary Patel",
-      pos: "Student Member",
-      fb: "https://www.facebook.com/profile.php?id=100074647653881&mibextid=ZbWKwL",
-      linkedin: "https://www.linkedin.com/in/aishwary-patel-976298226",
-      contact: "9630271203",
-      mail:"aishwarypatel2004@gmail.com"
+        name: "Ansh Murarka",
+        img: "path/to/ansh_murarka_img.jpg",
+        pos: "Student Member"
     },
     {
-      img: img1,
-      name: "Archie Avirati",
-      pos: "Student Member",
-      fb: "https://www.facebook.com/profile.php?id=100074750037795&mibextid=ZbWKwL",
-      linkedin: "https://www.linkedin.com/in/archie-avirati-406338224",
-      contact: "7024385271",
-      mail:"aviratiarchie@gmail.com"
+        name: "Anup Kumar",
+        img: "path/to/anup_kumar_img.jpg",
+        pos: "Student Member"
     },
     {
-      img: img1,
-      name: "Ayush Sunil Munot ",
-      pos: "Student Member",
-      fb: "https://www.facebook.com/profile.php?id=100075329244988",
-      linkedin: "https://www.linkedin.com/in/ayush-munot-5b4963223",
-      contact: "9890079441",
-      mail:"munotayush6@gmail.com "
+        name: "Anushika Srivastava",
+        img: "path/to/anushika_srivastava_img.jpg",
+        pos: "Student Member"
     },
     {
-      img: img1,
-      name: "Bhoumik Mhatre",
-      pos: "Student Member",
-      fb: "https://www.facebook.com/bhoumik.mhatre.1",
-      linkedin: "https://www.linkedin.com/in/bhoumik-mhatre-5396b623a/",
-      contact: "8087562959",
-      mail:"bhoumikmhatre@gmail.com"
+        name: "Anvesh Rajguru",
+        img: "path/to/anvesh_rajguru_img.jpg",
+        pos: "Student Member"
     },
     {
-      img: img1,
-      name: "Bhumi Tayal",
-      pos: "Student Member",
-      fb: "https://www.facebook.com/people/Bhumi-Tayal/100074774606356/",
-      linkedin: "https://www.linkedin.com/in/bhumi-tayal-725913226/",
-      contact: "7684067297",
-      mail:"tayalbhumi8@gmail.com"
+        name: "Aryal Katkar",
+        img: "path/to/aryal_katkar_img.jpg",
+        pos: "Student Member"
     },
     {
-      img: img1,
-      name: "Dommeti Chaitanya Srinivas",
-      pos: "Student Member",
-      fb: "https://www.facebook.com/profile.php?id=100076109945148&mibextid=ZbWKwL",
-      linkedin: "https://www.linkedin.com/in/chaitanya-srinivas-41559323b",
-      contact: "8074797345",
-      mail:"chaitanyads127@gmail.com"
+        name: "Asmit Srivastava",
+        img: "path/to/asmit_srivastava_img.jpg",
+        pos: "Student Member"
     },
     {
-      img: img1,
-      name: "Komal Arya",
-      pos: "Student Member",
-      fb: "https://www.facebook.com/komal.arya.7359447",
-      linkedin: "https://www.linkedin.com/in/komal-arya-381b0822b",
-      contact: "9102515688",
-      mail:"komalarya776@gmail.com"
+        name: "Ben Abraham Biju",
+        img: "path/to/ben_abraham_biju_img.jpg",
+        pos: "Student Member"
     },
     {
-      img: img1,
-      name: "Pahnabi Roy",
-      pos: "Student Member",
-      fb: "https://www.facebook.com/profile.php?id=100080970711338&mibextid=ZbWKwL",
-      linkedin: "https://www.linkedin.com/in/pahnabi-roy-8a8a1b234/",
-      contact: "8100537502",
-      mail:"roypahnabi@gmail.com"
+        name: "Chavi Agarwal",
+        img: "path/to/chavi_agarwal_img.jpg",
+        pos: "Student Member"
     },
     {
-      img: img1,
-      name: "Pratham Gupta",
-      pos: "Student Member",
-      fb: "https://www.facebook.com/profile.php?id=100048664521001",
-      linkedin: "https://www.linkedin.com/in/pratham-gupta-80bb08223/",
-      contact: "7505259662",
-      mail:"prathamgupta717@gmail.com"
+        name: "Devika K V",
+        img: "path/to/devika_kv_img.jpg",
+        pos: "Student Member"
     },
     {
-      img: img1,
-      name: "Sharansh vardhan",
-      pos: "Student Member",
-      fb: "https://www.facebook.com/profile.php?id=100023522052604&mibextid=ZbWKwL",
-      linkedin: "https://www.linkedin.com/in/sharansh-vardhan-289ba9248/",
-      contact: "6376339863",
-      mail:"ankitkumar18175468@gmail.com"
+        name: "Dhruv Rai",
+        img: "path/to/dhruv_rai_img.jpg",
+        pos: "Student Member"
     },
     {
-      img: img1,
-      name: "Vishal Arya",
-      pos: "Student Member",
-      fb: "https://www.facebook.com/vishal.arya.92351995?mibextid=ZbWKwL",
-      linkedin: "https://www.linkedin.com/in/vishal-arya-1ab87a23a",
-      contact: "7827523608",
-      mail:"aryav7196@gmail.com"
+        name: "Harshdeep Mili",
+        img: "path/to/harshdeep_mili_img.jpg",
+        pos: "Student Member"
     },
     {
-      img: img1,
-      name: "Vishal Saraswat",
-      pos: "Student Member",
-      fb: "https://www.facebook.com/profile.php?id=100075526327320&mibextid=ZbWKwL",
-      linkedin: "https://www.linkedin.com/in/vishal-saraswat-604baa224",
-      contact: "6354116363",
-      mail:"saraswatvishal007@gmail.com"
+        name: "Jatain Kumar",
+        img: "path/to/jatain_kumar_img.jpg",
+        pos: "Student Member"
+    },
+    {
+        name: "Gnaneswar Karakavalasa",
+        img: "path/to/gnaneswar_karakavalasa_img.jpg",
+        pos: "Student Member"
+    },
+    {
+        name: "Konduri Jeevan Varma",
+        img: "path/to/konduri_jeevan_varma_img.jpg",
+        pos: "Student Member"
+    },
+    {
+        name: "Manash Shit",
+        img: "path/to/manash_shit_img.jpg",
+        pos: "Student Member"
+    },
+    {
+        name: "Mohit Pant",
+        img: "path/to/mohit_pant_img.jpg",
+        pos: "Student Member"
+    },
+    {
+        name: "Nikhil Yadav",
+        img: "path/to/nikhil_yadav_img.jpg",
+        pos: "Student Member"
+    },
+    {
+        name: "Pranay Anil Darode",
+        img: "path/to/pranay_anil_darode_img.jpg",
+        pos: "Student Member"
+    },
+    {
+        name: "Priyadarshi Shaket",
+        img: "path/to/priyadarshi_shaket_img.jpg",
+        pos: "Student Member"
+    },
+    {
+        name: "Raj Aryan",
+        img: "path/to/raj_aryan_img.jpg",
+        pos: "Student Member"
+    },
+    {
+        name: "Ranjeeta Mashal",
+        img: "path/to/ranjeeta_mashal_img.jpg",
+        pos: "Student Member"
+    },
+    {
+        name: "Rathlavath Omprakash",
+        img: "path/to/rathlavath_omprakash_img.jpg",
+        pos: "Student Member"
+    },
+    {
+        name: "S Praneeth Kumar",
+        img: "path/to/s_praneeth_kumar_img.jpg",
+        pos: "Student Member"
+    },
+    {
+        name: "Sai Vishwas Aluvala",
+        img: "path/to/sai_vishwas_aluvala_img.jpg",
+        pos: "Student Member"
+    },
+    {
+        name: "Satyam Jayswal",
+        img: "path/to/satyam_jayswal_img.jpg",
+        pos: "Student Member"
+    },
+    {
+        name: "Shubham Pingale",
+        img: "path/to/shubham_pingale_img.jpg",
+        pos: "Student Member"
+    },
+    {
+        name: "Mohite Swara Nandkishor",
+        img: "path/to/mohite_swara_nandkishor_img.jpg",
+        pos: "Student Member"
+    },
+    {
+        name: "B. Uma Chandra Shekar Naik",
+        img: "path/to/uma_chandrashekhar_naik_img.jpg",
+        pos: "Student Member"
+    },
+    {
+        name: "Vaibhav Chakole",
+        img: "path/to/vaibhav_chakole_img.jpg",
+        pos: "Student Member"
+    },
+    {
+        name: "Snehal Tengse",
+        img: "path/to/snehal_tengse_img.jpg",
+        pos: "Student Member"
+    },
+    {
+        name: "Ujjwal Kumar",
+        img: "path/to/ujjwal_kumar_img.jpg",
+        pos: "Student Member"
+    },
+    {
+        name: "Raghav Kishore",
+        img: "path/to/raghav_kishore_img.jpg",
+        pos: "Student Member"
+    },
+    {
+        name: "Ananya Sikdar",
+        img: "path/to/ananya_sikdar_img.jpg",
+        pos: "Student Member"
+    },
+    {
+        name: "Pragya Bhootra",
+        img: "path/to/pragya_bhootra_img.jpg",
+        pos: "Student Member"
+    },
+    {
+        name: "Pradnya Ukey",
+        img: "path/to/pradnya_ukey_img.jpg",
+        pos: "Student Member"
+    },
+    {
+        name: "Madipelli Sreetham",
+        img: "path/to/madipelli_sreetham_img.jpg",
+        pos: "Student Member"
     }
-  ]
+];
   
   return (
     <>
@@ -333,6 +389,7 @@ function Teams() {
                 </div> */}
           <div className="row">
             {headsData.map((ele, i) => {
+         
               return (
                 <>
                   <div className=" col-lg-4 col-md-6 my-4 col-sm-6 ">
@@ -361,6 +418,7 @@ function Teams() {
             <h3 className="team-title" style={{color:"#08707f", fontFamily:"Raleway,sans-serif",marginBottom:"4rem",marginTop:"5rem"}}>STUDENT MEMBERS</h3>
             <div className="row">
               {studData.map((ele, i) => {
+                console.log(ele.img)
                 {/* let contfactLink = "tel:" + ele.contact; */}
                 return (
                   <>
